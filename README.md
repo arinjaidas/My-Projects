@@ -20,7 +20,7 @@ I am pursuing an **MA in Economics at the Gokhale Institute of Politics and Econ
 | [India External-Sector Forecasting](projects/india-external-sector-forecasting/) | Accounting-coherent forecasts and chronological benchmark evaluation | 10 |
 | [ARMA Simulation with Student-t Innovations](projects/arma-student-t-simulation/) | Persistence heavy tails theoretical moments and Monte Carlo diagnostics | 8 |
 | [LSTM Time-Series and Trading Workflow](projects/lstm-time-series-lab/) | NumPy sequence modelling chronological evaluation and cost-aware simulation | 8 |
-| [Behavioural Responses to Economic Recessions](projects/behavioural-recessions-review/) | Saving consumption risk-taking and household constraints | Appendix checks |
+| [Behavioural Responses to Economic Recessions](projects/behavioural-recessions-review/) | Saving consumption risk-taking and household constraints | Overview |
 
 Eight projects contain executable analytical/model demonstrations with synthetic or illustrative data. The behavioural-recession project provides a research overview. Its complete manuscript and reproduction package are prepared separately. Each executable project has methods, data definitions, results, provenance, reproducibility notes and a roadmap. The review overview has its research design and selected source links.
 
