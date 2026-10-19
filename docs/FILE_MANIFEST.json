@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3730,
-      "sha256": "6e0a3a17a1d19f83b64f2f621a83147ec05f669aef37745d98d379329b4a6c51"
+      "bytes": 3847,
+      "sha256": "409d2041187e72cd919e9a2106698502cc73a100113d64334337badad3b863ab"
     },
     {
       "path": "assets/banner.svg",
@@ -53,8 +53,8 @@
     },
     {
       "path": "docs/PUBLICATION_STATUS.md",
-      "bytes": 1018,
-      "sha256": "95b313ec492d8d019868fceaf2c11413f59730ca9ff36e835cbc84aca9446072"
+      "bytes": 1050,
+      "sha256": "a44478f1d4a8af6f9b6dc1f09a3d5ee558e61c7d4439158585759debad123710"
     },
     {
       "path": "docs/RESULTS_GALLERY.md",
@@ -68,13 +68,13 @@
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 1570,
-      "sha256": "d891ecc1c8055239a073420dc93c02ecde02acfbf2181c0d2d86c32e18865232"
+      "bytes": 1933,
+      "sha256": "39f24e85bd22683f153c5fb20e769934ddd2e20727f4dd983d50414d6769f1fa"
     },
     {
       "path": "docs/release_verification.json",
-      "bytes": 2613,
-      "sha256": "273ea0c37b72b45536f64c34acc74b456cd8316f66728048ead3a184e2aa851a"
+      "bytes": 2824,
+      "sha256": "eb36c1c8298b507d8973d62db435a2d34dea187abc8955e097b5454ccc031d69"
     },
     {
       "path": "docs/repository-settings.json",

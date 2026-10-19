@@ -8,6 +8,8 @@ I am pursuing an **MA in Economics at the Gokhale Institute of Politics and Econ
 
 **9 project editions · 57 functional checks · 8 complete public example runs · 8 walkthrough notebooks**
 
+[GitHub Actions: all eight project jobs passed](https://github.com/arinjaidas/My-Projects/actions/runs/39230105357)
+
 ## Explore the projects
 
 | Project | Focus | Local checks |

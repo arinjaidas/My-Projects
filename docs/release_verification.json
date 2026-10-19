@@ -75,7 +75,14 @@
   ],
   "functional_checks": 57,
   "example_runs": 8,
-  "hosted_ci": "Workflow files prepared; no hosted run claimed.",
+  "hosted_ci": {
+    "run_id": 39230105357,
+    "url": "https://github.com/arinjaidas/My-Projects/actions/runs/39230105357",
+    "status": "completed",
+    "conclusion": "success",
+    "tested_code_commit": "4a4541aef69df813b8da826e0284a8e8a1d0ec13",
+    "jobs_passed": 8
+  },
   "matlab": "Companion scripts not executed; no MATLAB/Octave runtime.",
   "original_archives": "Excluded; their separate historical checks do not count toward this public release.",
   "prepared_total_example_runs": 9
