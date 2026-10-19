@@ -1,17 +1,28 @@
-# BHARAT-FX: External Sustainability and INR Stress
+# BHARAT-FX
 
-## Research overview
+**External sustainability and INR stress | Research overview**
 
-BHARAT-FX is a Python-based research framework examining India's external sustainability and INR stress. The documented work combines RBI and market data, balance-of-payments accounting, forecasting comparisons, regime analysis, econometric/Bayesian methods and conditional scenario simulation.
+BHARAT-FX examines how India's capital-flow composition, global financial conditions and policy buffers interact with currency pressure. It is a Python-based macroeconomic research framework developed in the context of Group 5 MA Economics research at GIPE.
 
-The economic question is how capital-flow composition, global financial conditions and policy buffers interact with currency pressure. The research distinguishes external-stress diagnosis from reliable short-horizon exchange-rate prediction. Shock Lab is an ongoing extension.
+## Research question
 
-## Public edition
+When does external-sector vulnerability translate into pressure on the rupee, and how should that pressure be interpreted alongside financing composition and reserve buffers?
 
-This page currently provides the project overview only. The recovered source archive and selected datasets have been assembled and checked locally, but their public upload is held for explicit sharing approval after automatic upload review identified possible institutional-research risk.
+## Analytical scope
 
-No archived research code or datasets are distributed through this project page at this stage.
+- RBI and market data preparation, with balance-of-payments accounting checks.
+- Forecast comparisons and regime analysis.
+- Econometric and Bayesian methods for examining external-sector conditions.
+- Conditional scenario simulation for interpreting macroeconomic shocks.
+
+The framework treats INR stress as a diagnostic research concept. It does not present stress measures as validated crisis probabilities or trading signals. **Shock Lab** is an ongoing extension.
+
+## Public edition and verification
+
+This repository provides an overview. Original source code, datasets and research reports are not distributed here.
+
+Selected archived accounting identities, transition-matrix properties and Python syntax were checked locally. The advanced modelling pipeline was not rerun end to end, so this overview does not claim a fully reproduced research release.
 
 ## Attribution
 
-Developed in the context of Group 5 MA Economics research at GIPE. Portfolio owner: Arinjai Das. Original group contributions and source attribution will be preserved in any approved research release.
+Portfolio owner: **Arinjai Das**. Research context: **Group 5, MA Economics, Gokhale Institute of Politics and Economics**. The project reflects collaborative academic work; individual and source attribution must accompany any future research release.

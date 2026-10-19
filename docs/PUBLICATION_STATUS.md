@@ -1,18 +1,17 @@
-# Publication status
+# Public release scope
 
-## Published code
+## Executable public editions
 
-- Gold versus equities: reconstructed implementation and synthetic outputs.
-- Derivatives: reconstructed implementation and synthetic outputs.
-- Econometrics toolkit: reconstructed implementation and synthetic outputs.
-- Digital payment defaults: newly implemented synthetic demonstration only.
+- **Gold versus Equities in India:** reconstructed implementation and synthetic outputs.
+- **Derivatives and Portfolio Risk Lab:** reconstructed implementation and illustrative scenarios.
+- **Econometrics Research Toolkit:** reconstructed implementation and synthetic data.
+- **Digital Payments and Default Choice:** newly implemented synthetic demonstration.
 
-## Awaiting explicit approval
+## Research overviews
 
-Automatic upload review held the following prepared original research materials because they may include unpublished institutional research:
+- **BHARAT-FX:** overview of the macroeconomic framework and the limits of local archive verification.
+- **India External-Sector Forecasting:** overview of the research, contribution and local numerical reproduction.
 
-- BHARAT-FX recovered research source and selected datasets/aggregate outputs.
-- Current-account forecasting recovered code, source inputs, reports and datasets.
-- Payment-study original research scripts and historical result aggregates.
+Original BHARAT-FX and external-sector forecasting archives, original payment-study scripts and historical study results are outside this public edition. Participant-level survey records and institutional microdata are also excluded.
 
-These held archives are not included in the public project trees. Participant-level survey data and institutional microdata were excluded from the prepared publication scope as well.
+The public reconstructions and demonstrations were developed with ChatGPT assistance. They preserve the distinction between individual portfolio work, collaborative academic research and newly implemented examples.

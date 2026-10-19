@@ -1,26 +1,36 @@
-# Arinjai Das | Economics, Data Analytics and Financial Research
+![Arinjai Das | Economics, Econometrics and Financial Research](assets/banner.svg)
 
-I am an MA Economics student at the Gokhale Institute of Politics and Economics, with research experience at the University of Tübingen. This portfolio brings together analytical workflows and research-project overviews.
+# Research and analytical projects
 
-## Projects
+I build analytical workflows that connect economic questions with transparent models and interpretable results. My interests span applied econometrics, India's external sector, behavioural economics and financial risk.
 
-| Project | Focus | Available here |
+I am pursuing an MA in Economics at the **Gokhale Institute of Politics and Economics, Pune**, and previously supported economic-history research at the **University of Tübingen**.
+
+## Runnable projects
+
+| Project | What you can explore | Public edition |
 | --- | --- | --- |
-| [Gold versus equities](projects/gold-vs-equities-india/) | Investment performance and asset allocation | Runnable reconstructed implementation, synthetic example, charts and 5 checks |
-| [Derivatives and portfolio risk](projects/derivatives-and-portfolio-risk-lab/) | Pricing, hedging and payoff analysis | Runnable reconstructed implementation, synthetic scenarios and 7 checks |
-| [Econometrics toolkit](projects/econometrics-research-toolkit/) | Specification comparisons and reporting | Runnable reconstructed implementation, synthetic data and 4 checks |
-| [Digital payment defaults](projects/digital-payments-choice-experiment/) | Behavioural economics and consumer choice | Runnable synthetic demonstration and 3 checks; original study materials held for sharing approval |
-| [BHARAT-FX](projects/bharat-fx/) | External sustainability and INR stress | Research overview; original archive held for sharing approval |
-| [India external-sector forecasting](projects/india-external-sector-forecasting/) | CAD, financing and reserves | Research overview; prepared archive passed 821 local checks and awaits sharing approval |
+| [Gold versus Equities in India](projects/gold-vs-equities-india/) | INR-consistent asset comparison, drawdowns, rolling returns and allocation choices | Reconstructed Python workflow, synthetic outputs, **5 checks** |
+| [Econometrics Research Toolkit](projects/econometrics-research-toolkit/) | Comparable OLS specifications, HC3 inference, VIF and automated reporting | Reconstructed Python workflow, synthetic data, **4 checks** |
+| [Derivatives and Portfolio Risk Lab](projects/derivatives-and-portfolio-risk-lab/) | Option valuation, implied volatility, numerical pricing and hedging payoffs | Reconstructed Python workflow, illustrative scenarios, **7 checks** |
+| [Digital Payments and Default Choice](projects/digital-payments-choice-experiment/) | Payment-choice shares, linear probability models, logit and discrete changes | New synthetic demonstration, **3 checks** |
 
-## Research approach
+Each project includes an explanation of the question, executable code, installation and run instructions, example output and attribution. All **19 functional checks** passed locally, together with four complete demonstration runs.
 
-My interests include econometrics, time-series analysis, external-sector economics, behavioural economics and financial risk. I emphasise clear data definitions, benchmark comparisons and interpretation of uncertainty.
+## Macroeconomic research
 
-## Reproducibility and provenance
+| Project | Research focus | Available here |
+| --- | --- | --- |
+| [BHARAT-FX](projects/bharat-fx/) | External sustainability, capital-flow composition and INR stress | Research overview |
+| [India External-Sector Forecasting](projects/india-external-sector-forecasting/) | Current-account composition, financing reliability, reserves and accounting-coherent forecasts | Research overview |
 
-All four runnable demonstrations passed their 19 functional checks and end-to-end synthetic runs. The three older code projects are new public reconstructions from documented historical work; their original local source files were not recovered. Synthetic outputs are explicitly labelled and are not historical empirical findings.
+These two pages describe larger collaborative research projects. Their original code archives, source datasets and reports are not included in this public edition.
 
-The original payment-study materials and the larger macroeconomic research archives are not distributed in this public release. Their project pages describe the work and identify the pending sharing decision.
+## Tools and research practice
 
-See [verification](docs/VERIFICATION.md), [provenance](docs/PROVENANCE.md) and [publication status](docs/PUBLICATION_STATUS.md).
+**Python** · pandas · NumPy · SciPy · statsmodels · Matplotlib  
+**Additional tools:** R · Stata · MATLAB · Excel
+
+I make assumptions explicit, compare methods with appropriate benchmarks, preserve research attribution and distinguish illustrative results from empirical findings.
+
+The three reconstructed projects were rebuilt in October 2026 from documented earlier work. All bundled demonstration data and outputs are synthetic or illustrative. See [provenance](docs/PROVENANCE.md), [verification](docs/VERIFICATION.md) and [release scope](docs/PUBLICATION_STATUS.md).

@@ -1,17 +1,32 @@
-# India's Current Account Sustainability and External-Sector Forecasting
+# India External-Sector Forecasting
 
-## Research overview
+**Current-account sustainability, financing and reserves | Research overview**
 
-A GIPE group project examining current-account composition, financing reliability, reserve transactions and external liabilities. The work combines a forty-quarter descriptive assessment with a 105-quarter forecasting rebuild.
+A collaborative GIPE research project examining the composition and financing of India's current account. The work combines a forty-quarter descriptive assessment with a forecasting rebuild covering 105 quarters.
 
-Methods include seasonal/autoregressive baselines, ridge VAR and component comparisons, accounting-coherent forecasts, chronological evaluation and conditional scenarios. Arinjai Das served as team lead and contributed to empirical work, ratios/reserves analysis and project coordination.
+## Research question
 
-## Verification and publication status
+How sustainable is India's external position when the current-account balance is assessed together with financing reliability, reserve transactions and external liabilities?
 
-The prepared numerical workflow was rerun locally and passed 821 independent checks. The original research package includes source code, workbooks, reports and derived outputs.
+## Analytical scope
 
-This public page currently provides an overview only. Upload review held the original research package for explicit sharing approval because it combines recovered research code, source inputs, reports and datasets. Those files are not included in this public edition.
+- Current-account components, financing composition and reserve-flow interpretation.
+- Seasonal and autoregressive benchmarks, ridge VAR and component forecasts.
+- Accounting-coherent forecast construction and chronological evaluation.
+- Conditional scenarios for interpreting external-sector changes.
+
+The evaluation uses the available data vintage retrospectively. It is not presented as a real-time forecasting track record. Provisional monthly bridges and weak directional signals require cautious interpretation.
+
+## Contribution and verification
+
+**Arinjai Das** served as team lead and contributed to empirical work, ratios and reserves analysis, and project coordination.
+
+The prepared original numerical workflow was rerun locally and passed **821 numerical reproduction checks**. Those checks concern the archived implementation and accounting calculations; they do not establish out-of-sample predictive performance.
+
+## Public edition
+
+This repository provides an overview. The original code, workbooks, reports, source inputs and derived datasets are not distributed here.
 
 ## Attribution
 
-Group 5, MA Economics, Gokhale Institute of Politics and Economics. Preserve the full group's contributions and original source attribution in any approved release.
+**Group 5, MA Economics, Gokhale Institute of Politics and Economics.** Preserve the group's contributions and original source attribution in any future research release.

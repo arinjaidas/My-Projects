@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+<title id="title">Arinjai Das - Economics, econometrics and financial research</title>
+<desc id="desc">A navy banner with teal and gold analytical lines, the name Arinjai Das, and his research focus.</desc>
+<rect width="1200" height="280" rx="16" fill="#10253a"/>
+<path d="M790 215H1150M790 165H1150M790 115H1150M790 65H1150" stroke="#244158" stroke-width="1"/>
+<path d="M810 212L866 191L922 199L978 145L1034 159L1090 102L1146 68" fill="none" stroke="#64d8c3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M810 221L866 205L922 177L978 182L1034 148L1090 153L1146 112" fill="none" stroke="#e5bd70" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="54" y="50" width="48" height="5" rx="2" fill="#64d8c3"/>
+<text x="54" y="126" font-family="DejaVu Sans,Arial,sans-serif" font-size="56" font-weight="700" fill="#ffffff">Arinjai Das</text>
+<text x="57" y="176" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" fill="#c6d8e5">Economics · Econometrics · Financial Research</text>
+<text x="57" y="224" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#89aabe">Economic questions. Transparent methods. Reproducible analysis.</text>
+</svg>

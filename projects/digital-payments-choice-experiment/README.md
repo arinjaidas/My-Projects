@@ -20,7 +20,7 @@ All bundled response records and estimates are synthetic. They are not original 
 
 The original academic project developed a two-form survey comparing active choice with UPI preselection, with empirical analysis and robustness work. Arinjai Das contributed to quantitative analysis and interpretation within Group 8 at GIPE.
 
-The recovered original research scripts and historical result files are not part of this public edition. Their publication is pending explicit sharing approval after upload review identified possible unpublished institutional material.
+The original research scripts, participant records and historical study results are not included in this public edition. The demonstration illustrates the analytical workflow and does not reproduce the original study estimates.
 
 ## Attribution
 
