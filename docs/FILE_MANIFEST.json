@@ -1,0 +1,275 @@
+{
+  "note": "Manifest excludes itself.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 123,
+      "sha256": "46cc3996828827099083cfc39f8e7512fc2bbd690e0e4ae201a3075ab8d50148",
+      "git_blob_sha1": "08184bf17114a39749047eaffe80e0e3b3c5efdd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2438,
+      "sha256": "bb7f166de8608999ba6005179c4de7722bfeb86470580f4a623131ea18800395",
+      "git_blob_sha1": "acbdd118d8710ccbf5f70d789cbd232b2f83780d"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 766,
+      "sha256": "8c6c3a65f98f479012daf36af9536d47855f5606e68dc5f31e90c9922af5107f",
+      "git_blob_sha1": "e419a61b407f0c4b107f0ea91d7b38a3daff3179"
+    },
+    {
+      "path": "docs/PUBLICATION_STATUS.md",
+      "bytes": 932,
+      "sha256": "b6156e21f9c9205931527870d88a251d9272bb7a6f729a2ab5ba25220d140f23",
+      "git_blob_sha1": "53a383e13aa7a438bc93e68a8b706a88e66388d1"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "bytes": 878,
+      "sha256": "a1fc091d213e8fd947a9b97131ebb209f7d6694757ff0f570c0f35aeb2adcb77",
+      "git_blob_sha1": "f937942abeb510d2ec2fae2ba7ecee3c6860d0a4"
+    },
+    {
+      "path": "projects/bharat-fx/README.md",
+      "bytes": 1271,
+      "sha256": "f2cfbb290f13ec34d8dd69a973bdb22ecd42bf5dca0e4c74510a086b8450fab1",
+      "git_blob_sha1": "38b940a18d30d921f82a4e8fb7a3e476a242edfa"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/README.md",
+      "bytes": 1732,
+      "sha256": "f7958e7c353047f3bf98def1c6c471fae84931e38d8c88f95bf6e579f53c4a50",
+      "git_blob_sha1": "d886f7acafb39f6850977a1b3cefa7ef267886e9"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/demo_output/payoff_profiles.csv",
+      "bytes": 27008,
+      "sha256": "74ddd0a666e9b0819bfb86acdbde020a2bcad2195a8e16c81af96b164ee81088",
+      "git_blob_sha1": "45effe5d63ed0b3128108aa3e6f13bc486fc71f0"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/demo_output/payoffs.svg",
+      "bytes": 64821,
+      "sha256": "b918b90f9fa79d17c904d3dc0dafd5f02d4ec2b1f8c16cdad419a00022870045",
+      "git_blob_sha1": "7d81bf9f86d024bb02afe47bcdbd670598f51777"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/demo_output/pricing_summary.json",
+      "bytes": 682,
+      "sha256": "1f38aa93577df6419235504a5dd56fdd90192c6e1c2cb9dad4d6be3f94196624",
+      "git_blob_sha1": "8463d75d76ecd43d59ae6a422194e080cfc4f46b"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/pricing.py",
+      "bytes": 7373,
+      "sha256": "1cfc9aec9e8f2a43114d37758509d2cf6732570257c0f06a42ad1fc92d9a6547",
+      "git_blob_sha1": "81305944ac6c7af3ea28ba2f41fec73a7c64ecc9"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/requirements.txt",
+      "bytes": 52,
+      "sha256": "c96199ef81ade15361474fd4c6479ea611eb85997230bef8b702a042ad8e62ba",
+      "git_blob_sha1": "45dca03db4e33cfd947c3fcd4a5a40499ad60c67"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/test_pricing.py",
+      "bytes": 1884,
+      "sha256": "388062f3f97717ed950a104ab5cd1093c06a55078bc3eaeb02a1990f21f9c7c5",
+      "git_blob_sha1": "1406df4d77cc6d423bf91df493548e4dc3e0e8a0"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/README.md",
+      "bytes": 1548,
+      "sha256": "16cc3cd4dac8fc8004040b5f95632ba3196669a0f4b6a6f20ce3558a5f25967e",
+      "git_blob_sha1": "ea45b37eb6b18d7f361f71cb6bf4353773acfcd7"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/demo.py",
+      "bytes": 4492,
+      "sha256": "70d5cb17e41a56340106e06ac7ef3e2e9fc4e475f6f07d306c911705f80a8748",
+      "git_blob_sha1": "27977a49b81953414343972ef493b72ba9b7a953"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/demo_output/choice.svg",
+      "bytes": 29922,
+      "sha256": "192b4e4fb7b8a73696ebae18e3f1a4092d133960fd1cc8f7e947018716f10e18",
+      "git_blob_sha1": "0827a448e2ce32f86a25e2de7bcd1bad81bdea27"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/demo_output/group_summary.csv",
+      "bytes": 69,
+      "sha256": "7f587758ec616d5c4286390a38ba4ae215fc564bda91aec1377e0185ece5ffba",
+      "git_blob_sha1": "f87695ddedce50d7aaf65291f678038dbf7d0b01"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/demo_output/model_coefficients.csv",
+      "bytes": 1263,
+      "sha256": "cb2e35285a06753c33a0a84d60f2a33e186bda902139fdf39cc3b2a2a1622362",
+      "git_blob_sha1": "c40f68538a178256f7fd8d5d7e059c4eb494d6c6"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/demo_output/model_summaries.txt",
+      "bytes": 3563,
+      "sha256": "1fd6e389d81bdc968f74d45be0a1374fe0fc7250833a13a5c8ca61994a3ddccd",
+      "git_blob_sha1": "300f8049e0d6d4437555993dbc8db443b8793290"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/demo_output/run_metadata.json",
+      "bytes": 455,
+      "sha256": "8f41471743b552d1d603b9d9858b468fa0c5b789f94a05c509611e2dc93e0402",
+      "git_blob_sha1": "e82ebc9961c4495c2a5e6dacf59bb0d96b612051"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/demo_output/synthetic_anonymous_responses.csv",
+      "bytes": 36258,
+      "sha256": "2169f9d2133d1bb5e0cc1f70995d7e789a1d3aac7c1254b1fa57a01979a2e21a",
+      "git_blob_sha1": "2e82fc60ca85d77414f8e294069d0549ea57298e"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/requirements.txt",
+      "bytes": 88,
+      "sha256": "dc3a9cd8c82263bc08440b01cce3a8ca79b4ec42fcaccf919f7b2d69ac1f2cce",
+      "git_blob_sha1": "f41f1ed5d04c65a784505dd2c40dba0f93663421"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/test_demo.py",
+      "bytes": 825,
+      "sha256": "930b4450c0d980cd0b80c6d0860394d4de128328fe33fbd5d0a1954540c2e33f",
+      "git_blob_sha1": "92969eba646c5485b368230dda2916942ece9665"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/README.md",
+      "bytes": 2124,
+      "sha256": "adf0ecfd12f8acdb0ee84004acf525dcbcc29a228a81396adae2c54b711afe13",
+      "git_blob_sha1": "62dd517921308e9fed3a5016d36307cd7a75ca17"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/demo_output/coefficients_hc3.csv",
+      "bytes": 6561,
+      "sha256": "34a3a0c654b1576ed292088808eb3bccd2c232e2c8d73bfd7c066d982415abfc",
+      "git_blob_sha1": "0890f9c4de3057a56002ba668cb170a7dd35b578"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/demo_output/fit.svg",
+      "bytes": 86145,
+      "sha256": "2776b3c9104d9702c696ab9e85098ea80b1a3cc0eec5ee46dcc29be62986be5b",
+      "git_blob_sha1": "decf3306b329024066477f027e9a690b114fc823"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/demo_output/model_comparison.csv",
+      "bytes": 1876,
+      "sha256": "789159c8f03aeb3e4e86fd12a63a4b9fdead2f1db5d32971cc0f147e09fa286b",
+      "git_blob_sha1": "87fb023c1c39dc6c7aae44e3cc628e2bc534da3d"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/demo_output/run_metadata.json",
+      "bytes": 504,
+      "sha256": "72086a61701f64b325a0f513a9f320a26501b5f1a0c883072d9159a9244beb4c",
+      "git_blob_sha1": "448e20a978823ccf083e83da45d762d9ede30505"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/demo_output/top_model_summaries.txt",
+      "bytes": 20070,
+      "sha256": "72a41dcd5a5d469e3de4ac9a9fb13370a787f85f4fc45e878db413e657027e75",
+      "git_blob_sha1": "e24766fb41a8f3c6fb6c8ee319f76003b55e9ba6"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/demo_output/vif.csv",
+      "bytes": 1674,
+      "sha256": "5ba70010d9de1309cf85a78a3ba631c80ad647c9aba95d53c22daafa06b76ec4",
+      "git_blob_sha1": "9f91da684f0105617582d756e1aa887b267b42d0"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/requirements.txt",
+      "bytes": 58,
+      "sha256": "4d9945c8f4d5fd196968d52c9dd25b01496c91661c1b38adc90f9fdf9b6f0233",
+      "git_blob_sha1": "711f1b395686d0179add9d3ad2cc2d87da9c3fd2"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/test_toolkit.py",
+      "bytes": 1410,
+      "sha256": "982c4f93b6168561e68294c050177dcd4a5d286a8c6ef42199530eee2912216a",
+      "git_blob_sha1": "de0f4f03a2c6dc79920b7b6c5abe617f1e2670df"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/toolkit.py",
+      "bytes": 6276,
+      "sha256": "5981a388010305d0aaf6975caae0e9d880a0a213d369d7edac27c42a5c251f54",
+      "git_blob_sha1": "4ccdb4cd9092051533f91717fce17f8b38e51840"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/README.md",
+      "bytes": 2023,
+      "sha256": "824993ecf39a103ab2bff55fce64ae2e945a3803e11006ba808e81771aee6789",
+      "git_blob_sha1": "23004b0cbb8bd83e8e29afc13041061c67e2ebc9"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/analysis.py",
+      "bytes": 8302,
+      "sha256": "8bcae56955fb15f84d264351eda13087c4100f4a159f6a9d04be41f67fd0fa7d",
+      "git_blob_sha1": "ae4a9778a6b2641c728739ad267cea047c1ab7fd"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/demo_output/allocation_comparison.csv",
+      "bytes": 4217,
+      "sha256": "c6efcd7be289e0ce984fa2d6828fc28fe0674cee47e60154244e899d623843f2",
+      "git_blob_sha1": "714cfa8f72bc68f749c51c148678ac35622b7317"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/demo_output/correlations.csv",
+      "bytes": 173,
+      "sha256": "83b7cc5778608fd0550b60d026735c2aaf7dc9f0483c7477c7d642c9bba1b275",
+      "git_blob_sha1": "1b3e0ffdbfdc947e97b00625e93857b6bca2ad8f"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/demo_output/growth.svg",
+      "bytes": 346680,
+      "sha256": "2e000f41fd692b5275104260d5572a687de76f30e9ee80b5c33b0d5131d97cbf",
+      "git_blob_sha1": "6bdf38c1a2a7078aff222cccbf1c79196076f718"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/demo_output/performance.csv",
+      "bytes": 1141,
+      "sha256": "bbb6f44adad6a50f1e2c3052380a9179aa021b4203661d2381c5c8d3e24608e4",
+      "git_blob_sha1": "915e057e360f1f0947831e9cbe0bdf2ed9635476"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/demo_output/rolling_5y_cagr.csv",
+      "bytes": 168812,
+      "sha256": "6f1a2b797cbc757eec057927c6db5750177e9ef87c35432f7a6a15854fe96ec8",
+      "git_blob_sha1": "27c2d17b0c09fde9cf177adac438b2a788e79e04"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/demo_output/run_metadata.json",
+      "bytes": 307,
+      "sha256": "25506d901d5326ff9692127572e352129efbf4f80a227b9a50ff621efb57f983",
+      "git_blob_sha1": "99860c7efe47c7ea2d96636ce5c375188a7393ce"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/demo_output/wealth.csv",
+      "bytes": 352037,
+      "sha256": "bafc83a02db022193f1aed381317189e1fcf4027738355f9d87a3d4fb344de7f",
+      "git_blob_sha1": "494987bb0a9479c1584f8abe350180c25b7f7e2c"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/requirements.txt",
+      "bytes": 93,
+      "sha256": "1fb61f774722b87b0de3f71143e540d2ddc7081f5713b7d3fcb9ebff2806b7ea",
+      "git_blob_sha1": "edb31ffd4d91beafe281414398564e0b73ffdad4"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/test_analysis.py",
+      "bytes": 1560,
+      "sha256": "65b4abd7da5e85fbbd768702e63404f5f3889d3f16e23a98ad0dd572c02d35bc",
+      "git_blob_sha1": "38d2d3e3452f9f0fe0aabfe6bb8690128e3cfd5b"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/README.md",
+      "bytes": 1282,
+      "sha256": "1569fe64e84f93b827894b02d21455d4f965eed9073efe439205b67a9cfb9cd8",
+      "git_blob_sha1": "bfec3136a8f231d3647709e4d8765ed5d7caa25f"
+    }
+  ]
+}
