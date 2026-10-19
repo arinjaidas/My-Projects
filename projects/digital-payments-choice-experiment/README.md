@@ -1,27 +1,76 @@
-# Digital Payments and Default-Choice Experiment
+![Digital Payments and Default Choice](assets/header.svg)
 
-A public synthetic demonstration of a behavioural-economics workflow motivated by the documented GIPE group project on payment defaults and switching friction.
+# Digital Payments and Default Choice
 
-## Runnable demonstration
+Synthetic demonstration of payment defaults, linear probability models, logistic regression and average discrete changes.
 
-The code generates fictional responses, compares group choice shares, estimates an HC3 linear probability model and logistic regression, and reports the average discrete change in predicted payment choice.
+**Research question:** How does a preselected payment option relate to payment choice after accounting for prior use, switching effort and reliance on the platform?
 
-![Synthetic demonstration](demo_output/choice.svg)
+**Public edition:** New synthetic analytical demonstration; original scripts, participant records and study estimates excluded.
+
+**3 functional checks passed locally**, plus a complete demonstration run.
+
+## What you can inspect
+
+- Generate reproducible fictional responses with explicit analysis fields.
+- Compare unadjusted payment-choice shares across groups.
+- Estimate an HC3 linear probability model and HC3 logistic regression.
+- Calculate the mean discrete predicted-probability change when Default switches from zero to one.
+- Export aggregate summaries, coefficients and a labelled example chart.
+
+## Results preview
+
+All values below are synthetic or illustrative workflow results.
+
+![Digital Payments and Default Choice results preview](demo_output/choice.svg)
+
+| Synthetic comparison | Probability-point change |
+| --- | --- |
+| Unadjusted group difference | 23.3093 |
+| LPM Default coefficient | 22.358 |
+| Logit average discrete change | 22.4228 |
+
+These estimates describe 800 fictional records. Their agreement illustrates related summaries of the generated data, rather than reproducing the original academic study.
+
+## Run the example
+
+Use Python 3.12. From this project's directory:
 
 ```bash
 python -m pip install -r requirements.txt
-python -m unittest -v test_demo.py
+python -m unittest discover -v
 python demo.py --demo --output demo_output
 ```
 
-All bundled response records and estimates are synthetic. They are not original study findings. The public workflow keeps only its explicit analysis fields and exports aggregate/model outputs.
+For an isolated environment, run `python -m venv .venv` first. Activate it with `source .venv/bin/activate` on Linux/macOS or `.venv\Scripts\activate` on Windows. The standard example runs offline after dependencies are installed.
 
-## Project context
+The [notebook walkthrough](notebooks/01_results_walkthrough.ipynb) explains the saved outputs. Exact command-line options appear in [CLI.txt](docs/CLI.txt).
 
-The original academic project developed a two-form survey comparing active choice with UPI preselection, with empirical analysis and robustness work. Arinjai Das contributed to quantitative analysis and interpretation within Group 8 at GIPE.
+## Documentation
 
-The original research scripts, participant records and historical study results are not included in this public edition. The demonstration illustrates the analytical workflow and does not reproduce the original study estimates.
+| Guide | What it covers |
+| --- | --- |
+| [Methods](docs/METHODS.md) | Formulas, assumptions and interpretation |
+| [Data dictionary](docs/DATA_DICTIONARY.md) | Variables, units and validation rules |
+| [Results](docs/RESULTS.md) | Actual bundled output and how to read it |
+| [Reproducibility](REPRODUCIBILITY.md) | Commands, checks and the recorded environment |
+| [Provenance and attribution](docs/PROVENANCE.md) | Historical context, reconstruction and contribution |
+| [Roadmap](docs/ROADMAP.md) | Specific extensions, with unfinished work labelled |
+| [References](docs/REFERENCES.md) | Method documentation and source links |
 
-## Attribution
+## Limits of interpretation
 
-The academic paper lists Aayushika Bhardwaj, Shreya Bhardwaj, Adhya Pande, Kunal Sachdeva, Bipasha and Arinjai Das. This synthetic demonstration was newly implemented in October 2026 with ChatGPT assistance.
+- Bundled estimates are simulated and are not original study findings.
+- Causal interpretation of actual survey results depends on allocation and study design.
+- The public code does not certify a fully randomised factorial experiment.
+- Small samples, separation and model misspecification require additional assessment with real data.
+
+## Contribution and research context
+
+GIPE Group 8 academic project comparing active choice with UPI preselection.
+
+Arinjai Das contributed to quantitative analysis and interpretation within the group. The academic paper lists Aayushika Bhardwaj, Shreya Bhardwaj, Adhya Pande, Kunal Sachdeva, Bipasha and Arinjai Das. The public synthetic implementation was prepared with ChatGPT assistance.
+
+**Skills demonstrated:** Python, behavioural economics, survey analysis, linear probability models, logistic regression, marginal effects.
+
+[Portfolio](https://github.com/arinjaidas/My-Projects) · [GitHub profile](https://github.com/arinjaidas)

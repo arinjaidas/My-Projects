@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-19",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.10.8"
+  },
+  "projects": [
+    {
+      "project": "gold-vs-equities-india",
+      "functional_checks": 5,
+      "example_run": "passed",
+      "synthetic": true,
+      "metadata": "projects/gold-vs-equities-india/demo_output/run_metadata.json"
+    },
+    {
+      "project": "econometrics-research-toolkit",
+      "functional_checks": 5,
+      "example_run": "passed",
+      "synthetic": true,
+      "metadata": "projects/econometrics-research-toolkit/demo_output/run_metadata.json"
+    },
+    {
+      "project": "derivatives-and-portfolio-risk-lab",
+      "functional_checks": 8,
+      "example_run": "passed",
+      "synthetic": true,
+      "metadata": "projects/derivatives-and-portfolio-risk-lab/demo_output/pricing_summary.json"
+    },
+    {
+      "project": "digital-payments-choice-experiment",
+      "functional_checks": 3,
+      "example_run": "passed",
+      "synthetic": true,
+      "metadata": "projects/digital-payments-choice-experiment/demo_output/run_metadata.json"
+    },
+    {
+      "project": "bharat-fx",
+      "functional_checks": 10,
+      "example_run": "passed",
+      "synthetic": true,
+      "metadata": "projects/bharat-fx/demo_output/run_metadata.json"
+    },
+    {
+      "project": "india-external-sector-forecasting",
+      "functional_checks": 10,
+      "example_run": "passed",
+      "synthetic": true,
+      "metadata": "projects/india-external-sector-forecasting/demo_output/run_metadata.json"
+    },
+    {
+      "project": "arma-student-t-simulation",
+      "functional_checks": 8,
+      "example_run": "passed",
+      "synthetic": true,
+      "metadata": "projects/arma-student-t-simulation/demo_output/run_metadata.json"
+    },
+    {
+      "project": "lstm-time-series-lab",
+      "functional_checks": 8,
+      "example_run": "passed",
+      "synthetic": true,
+      "metadata": "projects/lstm-time-series-lab/demo_output/run_metadata.json"
+    },
+    {
+      "project": "behavioural-recessions-review",
+      "functional_checks": 0,
+      "example_run": "Prepared separately; public overview only",
+      "synthetic": false,
+      "metadata": null
+    }
+  ],
+  "functional_checks": 57,
+  "example_runs": 8,
+  "hosted_ci": "Workflow files prepared; no hosted run claimed.",
+  "matlab": "Companion scripts not executed; no MATLAB/Octave runtime.",
+  "original_archives": "Excluded; their separate historical checks do not count toward this public release.",
+  "prepared_total_example_runs": 9
+}

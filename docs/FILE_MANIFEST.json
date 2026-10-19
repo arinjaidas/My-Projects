@@ -7,14 +7,19 @@
       "sha256": "870e2a735523238ca84520abf010e5129a8693ca74c0163d13d38cb5fdf15171"
     },
     {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 1937,
+      "sha256": "6f069e876734c6585e97980d5844f4db0b108742879e44056470f601ab366c6c"
+    },
+    {
       "path": ".gitignore",
       "bytes": 123,
       "sha256": "46cc3996828827099083cfc39f8e7512fc2bbd690e0e4ae201a3075ab8d50148"
     },
     {
       "path": "README.md",
-      "bytes": 2928,
-      "sha256": "960dd02f430c1b89358b6f5e119e96a4101dcefa862b92104aeb063028fb983e"
+      "bytes": 3737,
+      "sha256": "b4851fd9739c3e945cc9382a314993e5ec2e6ea4823701199cdcd0055e1cd621"
     },
     {
       "path": "assets/banner.svg",
@@ -22,34 +27,374 @@
       "sha256": "9d7e0d05d2aec40a3f12b73879a04436ac0f96aad71a3c458d2133ab4f7aae81"
     },
     {
+      "path": "docs/CAREER_WRITEUPS.md",
+      "bytes": 11379,
+      "sha256": "0cf4204a7aa0d09eaa913461080fedce2209130c8fe67ae45aa8c5ea7e688c1a"
+    },
+    {
       "path": "docs/PROFILE_README.md",
-      "bytes": 2897,
-      "sha256": "23ff3aad549c511ed8da6eb1a42a9fa1a9bfb803028a088178e680c570b6f2d2"
+      "bytes": 3603,
+      "sha256": "d5971e9389a3534866bb9c249a1a51954989aa510fa2865f5b42514f11a0b9ad"
+    },
+    {
+      "path": "docs/PROFILE_SETTINGS.md",
+      "bytes": 1127,
+      "sha256": "987442ab05c4889c02f020c509e2c9d303ced2400437d1aa0a1bd06452a0a413"
+    },
+    {
+      "path": "docs/PROJECT_CATALOGUE.md",
+      "bytes": 5378,
+      "sha256": "5957579961fedf2d804c461625c48652d5d0084cf0a50512848f73a4ae2a2f00"
     },
     {
       "path": "docs/PROVENANCE.md",
-      "bytes": 766,
-      "sha256": "8c6c3a65f98f479012daf36af9536d47855f5606e68dc5f31e90c9922af5107f"
+      "bytes": 1881,
+      "sha256": "f717b6247d2296dc6630692b2a259067f02201f450aef5ba06ead20496b21ad6"
     },
     {
       "path": "docs/PUBLICATION_STATUS.md",
-      "bytes": 1107,
-      "sha256": "24d93588f2281eb1b86ad1ad594ace724bc039a333ccc48914a4922825fcec33"
+      "bytes": 1018,
+      "sha256": "95b313ec492d8d019868fceaf2c11413f59730ca9ff36e835cbc84aca9446072"
+    },
+    {
+      "path": "docs/RESULTS_GALLERY.md",
+      "bytes": 2437,
+      "sha256": "daa2945b4c0761fb064c3469795cc07c8242be719de8a3c9a6d116b93fab4dca"
+    },
+    {
+      "path": "docs/SEPARATE_REPOSITORIES.md",
+      "bytes": 1830,
+      "sha256": "7770d832753d508b50e8a5fd5de991083f83165c583c106b572985a321312e52"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 878,
-      "sha256": "a1fc091d213e8fd947a9b97131ebb209f7d6694757ff0f570c0f35aeb2adcb77"
+      "bytes": 1570,
+      "sha256": "d891ecc1c8055239a073420dc93c02ecde02acfbf2181c0d2d86c32e18865232"
+    },
+    {
+      "path": "docs/release_verification.json",
+      "bytes": 2613,
+      "sha256": "273ea0c37b72b45536f64c34acc74b456cd8316f66728048ead3a184e2aa851a"
+    },
+    {
+      "path": "docs/repository-settings.json",
+      "bytes": 5124,
+      "sha256": "a09c309276b878c7f9f1a8d5feb162617cdd4edff73d668cff3e123fc8eafafe"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/.gitattributes",
+      "bytes": 54,
+      "sha256": "7ae984b50ced7a800f4d97bc3f53471819f84860bbfc71a8658f1162a9f3fc95"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/.gitignore",
+      "bytes": 161,
+      "sha256": "226529a2f80dc277d24a19fc76db3779708389691b815cacf6c6dc27228fdcde"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/.python-version",
+      "bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/CITATION.cff",
+      "bytes": 413,
+      "sha256": "e7c1e41bdbe4d94908b4dc6507062c6d36d28113179def544a173dfe41791842"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/README.md",
+      "bytes": 3862,
+      "sha256": "2bc855062e4700ddf4633d62066db37e8ac7002b81ac72aac519e19d9ae68415"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/REPRODUCIBILITY.md",
+      "bytes": 1342,
+      "sha256": "0e2c019172027e9bf5db0129fe2a619f7abc2077dbc30fac0c7a68a16ef09f19"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/assets/header.svg",
+      "bytes": 755,
+      "sha256": "2d7b64d090efeff41ee54ec4d4e35910714aece91d896dd516166101529ede16"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/demo_output/acf.csv",
+      "bytes": 849,
+      "sha256": "13e34993ee203bab450ce4c6b30e4f7b4cd03b0f054752d522ea0d67a9ac76c9"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/demo_output/arma_diagnostics.svg",
+      "bytes": 84009,
+      "sha256": "81f57d93f0246ddfc5b08b11183e952c650e9b69f049754460e83420f3c8f3cf"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/demo_output/monte_carlo_moments.csv",
+      "bytes": 8104,
+      "sha256": "560e7fbeda6c6e703d229f8bad785367c23e4ff827022fbe0cd761715a726d1c"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/demo_output/run_metadata.json",
+      "bytes": 758,
+      "sha256": "0d8202dfe257d3880da5f4bb641c27f5e3c66a58ec393cf0a2f388ed40fb82c3"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/demo_output/sample.csv",
+      "bytes": 17687,
+      "sha256": "2078d27e61f090e7551b1e0f768908707cd8f69acce632a524a83f6e5b76dbe6"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/docs/CLI.txt",
+      "bytes": 483,
+      "sha256": "515f3c59eec40cb6c3e458361c5bcc9281044b4ad6b2f04f7166035c4084152b"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/docs/DATA_DICTIONARY.md",
+      "bytes": 775,
+      "sha256": "5c5d131de88404c17c30b3b519d403aee2bdea0388871b7ac9ad0e77295e6977"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/docs/METHODS.md",
+      "bytes": 1261,
+      "sha256": "3bf0223757b89e13dae60e856917b5293d9af7f54a7cbab0d1e71c49932619c8"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/docs/PROVENANCE.md",
+      "bytes": 1172,
+      "sha256": "03596210473e4068c828a03b609a531f1655ce18dcb2bf93db296aa7813102b6"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/docs/REFERENCES.md",
+      "bytes": 332,
+      "sha256": "62bcdfd46e567973a73598e592255c006cd48d0a48525ed19a3b34551b74312d"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/docs/RESULTS.md",
+      "bytes": 779,
+      "sha256": "5ba9913bc45602cd919481833d830d783fbb225b1033ec569469c5a815aa83f0"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/docs/ROADMAP.md",
+      "bytes": 337,
+      "sha256": "806f6bc55e92bcfb30495213bb77d121bdb442e8de28670e78b6b3511c71e137"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/docs/environment.json",
+      "bytes": 278,
+      "sha256": "c12143b6512ab77c7898db33d7d05dda805d20f6a8a41feb33906f0dd55ffae2"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/matlab/main_simulation.m",
+      "bytes": 711,
+      "sha256": "f2866d6bc17e350f7d76270ed35a28d962cae31aa9091e40fe67f1900b824ff5"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/matlab/simulateARMA.m",
+      "bytes": 965,
+      "sha256": "9109fb08b21888f2613eab7e760d3934e8806f2c27ee0400a9604db6f6e0bc3e"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/notebooks/01_results_walkthrough.ipynb",
+      "bytes": 3443,
+      "sha256": "9fc11d59e645657c148291c7cf8d2d67f42c2d3200ff8900a6ff2aa948e73fce"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/requirements.txt",
+      "bytes": 58,
+      "sha256": "8e33cce9a5b93528fff9e2721ff7fb69208e775b891e1092bdb9ed79e3b3e4ee"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/simulation.py",
+      "bytes": 5642,
+      "sha256": "5bc2409ead37f80ed9a0fd5486693da230d934624429c260e878a8dcd015f9dd"
+    },
+    {
+      "path": "projects/arma-student-t-simulation/test_simulation.py",
+      "bytes": 1746,
+      "sha256": "a41a33c98b284969c6571145d093777ba236dca7c080f1e59a0338449151557c"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/README.md",
+      "bytes": 1714,
+      "sha256": "15cd0c9c6c37fd98647be1b1ae3bded482d43bc72336e25f20202e9c044ead1b"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/assets/header.svg",
+      "bytes": 744,
+      "sha256": "280656872a011fa13bdadd4c13e0c8dd26c02d0bf01b8b7dbf596b5b7f742810"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/docs/REFERENCES.md",
+      "bytes": 543,
+      "sha256": "67b64729c5816d26f2869ff487503186dbeb6dee3493332c980161c1d570c671"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/docs/RESEARCH_DESIGN.md",
+      "bytes": 1336,
+      "sha256": "97b7cf0887475ffb377d975f9744bdaf88c2f488fe51d3e05b16cf219f511cc3"
+    },
+    {
+      "path": "projects/bharat-fx/.gitattributes",
+      "bytes": 54,
+      "sha256": "7ae984b50ced7a800f4d97bc3f53471819f84860bbfc71a8658f1162a9f3fc95"
+    },
+    {
+      "path": "projects/bharat-fx/.gitignore",
+      "bytes": 161,
+      "sha256": "226529a2f80dc277d24a19fc76db3779708389691b815cacf6c6dc27228fdcde"
+    },
+    {
+      "path": "projects/bharat-fx/.python-version",
+      "bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "path": "projects/bharat-fx/CITATION.cff",
+      "bytes": 364,
+      "sha256": "2208d6695a337bcda1f6673ef5d146c3a538cd87a75296a9f28259144b252631"
     },
     {
       "path": "projects/bharat-fx/README.md",
-      "bytes": 1684,
-      "sha256": "ae1e2e71c3b7aae19030728ec056420ba52dc070352453bd48f49639554ab12c"
+      "bytes": 4181,
+      "sha256": "00fec13d35871e49e1c78c6c2950d1fb901911703f3eee09fa4c016ebd34a1cd"
+    },
+    {
+      "path": "projects/bharat-fx/REPRODUCIBILITY.md",
+      "bytes": 1350,
+      "sha256": "bbd6a396e26df350931289a639efbb24cf7cd5b81f22b24b5b9c990aa5522a22"
+    },
+    {
+      "path": "projects/bharat-fx/assets/header.svg",
+      "bytes": 686,
+      "sha256": "014a2e5e496fba1f5ba8f359b50da2b369a366240791420e6fbb5e411c4527c5"
+    },
+    {
+      "path": "projects/bharat-fx/demo_output/accounting.csv",
+      "bytes": 25128,
+      "sha256": "0272530907e2c2c7e29618e8f13a739b5be97a7e048dd2e632c88ace9d434894"
+    },
+    {
+      "path": "projects/bharat-fx/demo_output/calibration.csv",
+      "bytes": 280,
+      "sha256": "6386704423aac569ca3f8ecd577e42846fc3b74ddbc834c2846c1d6f55305c82"
+    },
+    {
+      "path": "projects/bharat-fx/demo_output/reserve_scenarios.svg",
+      "bytes": 47084,
+      "sha256": "425bc7d59b7a0f667fe18473ddf58047ce3d3f12de9193aaa91dceca4672f5da"
+    },
+    {
+      "path": "projects/bharat-fx/demo_output/run_metadata.json",
+      "bytes": 574,
+      "sha256": "2092b35f8415258c4ac81541ea3a9d4d8ed9bd4d9cb145ddf47a2fef0576dbe5"
+    },
+    {
+      "path": "projects/bharat-fx/demo_output/scenarios.csv",
+      "bytes": 1861,
+      "sha256": "3df64083cc956806f25a254bb3b09746506185f8cb6fa511c27e1aa936f94af9"
+    },
+    {
+      "path": "projects/bharat-fx/demo_output/stress_diagnostic.csv",
+      "bytes": 19338,
+      "sha256": "0a3c2388168acbc227f0dee260f35197b5c71b96585fa902d7f6a55518365375"
+    },
+    {
+      "path": "projects/bharat-fx/docs/CLI.txt",
+      "bytes": 395,
+      "sha256": "e610abd738a1e6587f61ad78239c8a6c56a3ec8bb1e5bb2860a438ca9487e26b"
+    },
+    {
+      "path": "projects/bharat-fx/docs/DATA_DICTIONARY.md",
+      "bytes": 871,
+      "sha256": "2de14822827ff58f7d7a2845d82783368479253a0f04eaf550b3fd298a734bb9"
+    },
+    {
+      "path": "projects/bharat-fx/docs/METHODS.md",
+      "bytes": 2036,
+      "sha256": "083ec181d73e01ca861271b4f56b99b78ae301c7426003f765e97c0effe804ad"
+    },
+    {
+      "path": "projects/bharat-fx/docs/PROVENANCE.md",
+      "bytes": 1130,
+      "sha256": "c5e8fc27b301ae19ccc1ba72366f52c3e0ac3ca6d701947328354866d3f15f29"
+    },
+    {
+      "path": "projects/bharat-fx/docs/REFERENCES.md",
+      "bytes": 356,
+      "sha256": "9129b11928ab68e3d50794bb55f2247c770ea252d21f48b1d01b5f58ea692a34"
+    },
+    {
+      "path": "projects/bharat-fx/docs/RESEARCH_SCOPE.md",
+      "bytes": 1979,
+      "sha256": "5a61d6cc20549b59cfffd57b2eeb21cd9e6917d768228cda23d9381b788d14a1"
+    },
+    {
+      "path": "projects/bharat-fx/docs/RESULTS.md",
+      "bytes": 874,
+      "sha256": "933f5d087df9db9187285d04c38e2f2501a70e79493276f0af4e989550c4b7c2"
+    },
+    {
+      "path": "projects/bharat-fx/docs/ROADMAP.md",
+      "bytes": 460,
+      "sha256": "7eabe72507f36975555061ad98f67501f8591fcd3bd734d4907df02a08a30ca4"
+    },
+    {
+      "path": "projects/bharat-fx/docs/environment.json",
+      "bytes": 278,
+      "sha256": "c12143b6512ab77c7898db33d7d05dda805d20f6a8a41feb33906f0dd55ffae2"
+    },
+    {
+      "path": "projects/bharat-fx/notebooks/01_results_walkthrough.ipynb",
+      "bytes": 3660,
+      "sha256": "2181c0058f62fc942007ea6feee1ce50076dd17b05a1254940b39d14c4f81f62"
+    },
+    {
+      "path": "projects/bharat-fx/public_demo.py",
+      "bytes": 9189,
+      "sha256": "5e4615fefe4406b531602847dc9cd30e9f6dfa44155693ba536cf4f9d817f1fb"
+    },
+    {
+      "path": "projects/bharat-fx/requirements.txt",
+      "bytes": 40,
+      "sha256": "982c24839a17e4ed89742eb74690aca75fbf40aeb1247d88bd456aa37e2f1be2"
+    },
+    {
+      "path": "projects/bharat-fx/test_public_demo.py",
+      "bytes": 2882,
+      "sha256": "47c7841c771e0fc1889738357a5e8dcbdf85fe6c62652caf128d9350327d710b"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/.gitattributes",
+      "bytes": 54,
+      "sha256": "7ae984b50ced7a800f4d97bc3f53471819f84860bbfc71a8658f1162a9f3fc95"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/.gitignore",
+      "bytes": 161,
+      "sha256": "226529a2f80dc277d24a19fc76db3779708389691b815cacf6c6dc27228fdcde"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/.python-version",
+      "bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/CITATION.cff",
+      "bytes": 414,
+      "sha256": "7153944b52d8d288ad71fecc750a13bc9f7eff54bc6515d554f5455e974c58ab"
     },
     {
       "path": "projects/derivatives-and-portfolio-risk-lab/README.md",
-      "bytes": 1732,
-      "sha256": "f7958e7c353047f3bf98def1c6c471fae84931e38d8c88f95bf6e579f53c4a50"
+      "bytes": 3730,
+      "sha256": "0f4ee87134e6a3921d8a5b19772db54d13963cb8952a5200daf7c75471a6f328"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/REPRODUCIBILITY.md",
+      "bytes": 1302,
+      "sha256": "398aeb7b4427571e040ccc389f06900a104be872dae672c560071f8d2b540e7a"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/assets/header.svg",
+      "bytes": 722,
+      "sha256": "307eb640a42142d7b14667b4d332ac964a47524313b13497560fa60e2d10b3ed"
     },
     {
       "path": "projects/derivatives-and-portfolio-risk-lab/demo_output/payoff_profiles.csv",
@@ -59,7 +404,7 @@
     {
       "path": "projects/derivatives-and-portfolio-risk-lab/demo_output/payoffs.svg",
       "bytes": 64821,
-      "sha256": "b918b90f9fa79d17c904d3dc0dafd5f02d4ec2b1f8c16cdad419a00022870045"
+      "sha256": "f98efd8f722cc32e6bf61c1567303efc0a7b556dcad2319c01dcf48d11a273f6"
     },
     {
       "path": "projects/derivatives-and-portfolio-risk-lab/demo_output/pricing_summary.json",
@@ -67,9 +412,54 @@
       "sha256": "1f38aa93577df6419235504a5dd56fdd90192c6e1c2cb9dad4d6be3f94196624"
     },
     {
+      "path": "projects/derivatives-and-portfolio-risk-lab/docs/CLI.txt",
+      "bytes": 340,
+      "sha256": "2c91ff296ab8ce85abd1d7db51a49ade8b12f12945b11b2831c3939278af562e"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/docs/DATA_DICTIONARY.md",
+      "bytes": 693,
+      "sha256": "309c7cbde1c3c694f204441246ea313f2f649583a931aff0e999f9a66ef3246a"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/docs/METHODS.md",
+      "bytes": 1397,
+      "sha256": "614802b97f0c81be2e29d64e619af3f0dd51d2cf4cdbbcace60a8d5bee2d461f"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/docs/PROVENANCE.md",
+      "bytes": 1076,
+      "sha256": "7d085a070dbc625ee33db8d3a249f3ec24448225cad1f56155f70e6f5a261ead"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/docs/REFERENCES.md",
+      "bytes": 320,
+      "sha256": "ac922fab09deb43dd1f312a6dc1a60c4f06f15a9e82ccb091d950dd22b989e27"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/docs/RESULTS.md",
+      "bytes": 785,
+      "sha256": "86dc0508ea506297e9bb81374a75f58363cb355bc7e930e675cd96e7da5aa1a2"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/docs/ROADMAP.md",
+      "bytes": 361,
+      "sha256": "8db25770b78b03851eeec90b35cd276d4532002eadc9e0e35158b1f755c1be21"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/docs/environment.json",
+      "bytes": 278,
+      "sha256": "c12143b6512ab77c7898db33d7d05dda805d20f6a8a41feb33906f0dd55ffae2"
+    },
+    {
+      "path": "projects/derivatives-and-portfolio-risk-lab/notebooks/01_results_walkthrough.ipynb",
+      "bytes": 3886,
+      "sha256": "a9f2fc7cdb733c2e9aa4fb9c6989e171448de6a55a9e0c9b261c046c4f49cc24"
+    },
+    {
       "path": "projects/derivatives-and-portfolio-risk-lab/pricing.py",
-      "bytes": 7373,
-      "sha256": "1cfc9aec9e8f2a43114d37758509d2cf6732570257c0f06a42ad1fc92d9a6547"
+      "bytes": 7757,
+      "sha256": "95acb565cdeabde7f217e075a908aeef1a9c951f7f367c267dd67d706285b9a3"
     },
     {
       "path": "projects/derivatives-and-portfolio-risk-lab/requirements.txt",
@@ -77,24 +467,59 @@
       "sha256": "c96199ef81ade15361474fd4c6479ea611eb85997230bef8b702a042ad8e62ba"
     },
     {
+      "path": "projects/derivatives-and-portfolio-risk-lab/test_input_validation.py",
+      "bytes": 824,
+      "sha256": "a71a0aa9fccc69878421b663f98795a44554404448381dc93b5333d17451d1df"
+    },
+    {
       "path": "projects/derivatives-and-portfolio-risk-lab/test_pricing.py",
       "bytes": 1884,
       "sha256": "388062f3f97717ed950a104ab5cd1093c06a55078bc3eaeb02a1990f21f9c7c5"
     },
     {
+      "path": "projects/digital-payments-choice-experiment/.gitattributes",
+      "bytes": 54,
+      "sha256": "7ae984b50ced7a800f4d97bc3f53471819f84860bbfc71a8658f1162a9f3fc95"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/.gitignore",
+      "bytes": 161,
+      "sha256": "226529a2f80dc277d24a19fc76db3779708389691b815cacf6c6dc27228fdcde"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/.python-version",
+      "bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/CITATION.cff",
+      "bytes": 415,
+      "sha256": "8400945956aa5d1f71c0d3b098269acf8c3aa3be8b80e2ab86ade7aa524b539e"
+    },
+    {
       "path": "projects/digital-payments-choice-experiment/README.md",
-      "bytes": 1540,
-      "sha256": "37818ec9ca5ba331d17bd7b7770d2f4eee9510d30b752029ab904c7d90474e7c"
+      "bytes": 3769,
+      "sha256": "507ca07ff264f1ea0f83db0f6d79d06f65effe370485f42fed1bfa6fad705c50"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/REPRODUCIBILITY.md",
+      "bytes": 1327,
+      "sha256": "4ab506ac94eab3fa50ee6568d316f46c60af2758fbd5cb2110d7fb5dc4c2499d"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/assets/header.svg",
+      "bytes": 732,
+      "sha256": "61310ecbc2728214c670c330f8b0cc3004bb2b92f6fec3101a598232c7adebc6"
     },
     {
       "path": "projects/digital-payments-choice-experiment/demo.py",
-      "bytes": 4492,
-      "sha256": "70d5cb17e41a56340106e06ac7ef3e2e9fc4e475f6f07d306c911705f80a8748"
+      "bytes": 4448,
+      "sha256": "2593729bfafd71830d4a8f5adb1238fd101070eeaadb9b62c0aa88d627a4fbc6"
     },
     {
       "path": "projects/digital-payments-choice-experiment/demo_output/choice.svg",
       "bytes": 29922,
-      "sha256": "192b4e4fb7b8a73696ebae18e3f1a4092d133960fd1cc8f7e947018716f10e18"
+      "sha256": "67ec1ef022de08e730424a27e878bf86ca502f36974ef5749e5854aa9edef2d6"
     },
     {
       "path": "projects/digital-payments-choice-experiment/demo_output/group_summary.csv",
@@ -109,17 +534,62 @@
     {
       "path": "projects/digital-payments-choice-experiment/demo_output/model_summaries.txt",
       "bytes": 3563,
-      "sha256": "1fd6e389d81bdc968f74d45be0a1374fe0fc7250833a13a5c8ca61994a3ddccd"
+      "sha256": "f9258daded5b0d1385d5e46efe8210c7233c75a78b95b3575f57caa11034839f"
     },
     {
       "path": "projects/digital-payments-choice-experiment/demo_output/run_metadata.json",
-      "bytes": 455,
-      "sha256": "8f41471743b552d1d603b9d9858b468fa0c5b789f94a05c509611e2dc93e0402"
+      "bytes": 411,
+      "sha256": "4317cc85d8cbe22eedce7f5d645b61359d0c134ee4a77084fe2f6f8091c04ff8"
     },
     {
       "path": "projects/digital-payments-choice-experiment/demo_output/synthetic_anonymous_responses.csv",
       "bytes": 36258,
       "sha256": "2169f9d2133d1bb5e0cc1f70995d7e789a1d3aac7c1254b1fa57a01979a2e21a"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/docs/CLI.txt",
+      "bytes": 380,
+      "sha256": "106fa28b25a29ec1432e24d52eafd49d0da38ccc762494033d362a1574ae7cde"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/docs/DATA_DICTIONARY.md",
+      "bytes": 701,
+      "sha256": "d0c4363abe4a1bd1a2412d7304f03bce0c4036a5d189097e6af751ec4cca9f39"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/docs/METHODS.md",
+      "bytes": 1397,
+      "sha256": "723f60cd5c65a8e20e214ec1bdb11b031b9da305d047841a95f4e1915d756d48"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/docs/PROVENANCE.md",
+      "bytes": 1110,
+      "sha256": "a924ae863304258eeff2dd2555cf324778aebfc20daeac9f24da0d502405c5fc"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/docs/REFERENCES.md",
+      "bytes": 326,
+      "sha256": "dd3b345098719db854442288fefc74cb141cefa0267429221766fd0dcee3e406"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/docs/RESULTS.md",
+      "bytes": 743,
+      "sha256": "5108d61d6b9fe8cfc8d70cf7456fa50ae30ac2e03cfcd3348845dbc66d8327e4"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/docs/ROADMAP.md",
+      "bytes": 363,
+      "sha256": "e95a436dd549cc419ca4bda2f76026cd04baf3979b4d65a1622193147d6125b2"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/docs/environment.json",
+      "bytes": 278,
+      "sha256": "c12143b6512ab77c7898db33d7d05dda805d20f6a8a41feb33906f0dd55ffae2"
+    },
+    {
+      "path": "projects/digital-payments-choice-experiment/notebooks/01_results_walkthrough.ipynb",
+      "bytes": 3479,
+      "sha256": "97013846f77bf629e2b9503e83c361ff2e8bfd24c0c84d8e0a029ac84a5342da"
     },
     {
       "path": "projects/digital-payments-choice-experiment/requirements.txt",
@@ -132,9 +602,39 @@
       "sha256": "930b4450c0d980cd0b80c6d0860394d4de128328fe33fbd5d0a1954540c2e33f"
     },
     {
+      "path": "projects/econometrics-research-toolkit/.gitattributes",
+      "bytes": 54,
+      "sha256": "7ae984b50ced7a800f4d97bc3f53471819f84860bbfc71a8658f1162a9f3fc95"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/.gitignore",
+      "bytes": 161,
+      "sha256": "226529a2f80dc277d24a19fc76db3779708389691b815cacf6c6dc27228fdcde"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/.python-version",
+      "bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/CITATION.cff",
+      "bytes": 404,
+      "sha256": "442ea46ed8382929243563392eb47508af67f118695bee4020155347b3e0113d"
+    },
+    {
       "path": "projects/econometrics-research-toolkit/README.md",
-      "bytes": 2124,
-      "sha256": "adf0ecfd12f8acdb0ee84004acf525dcbcc29a228a81396adae2c54b711afe13"
+      "bytes": 3967,
+      "sha256": "342467406eb9751b3e93d9372fee65867b4822f64cf2d1c25a8128504c0b59db"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/REPRODUCIBILITY.md",
+      "bytes": 1336,
+      "sha256": "3951a3fccceca076d3e487f63766b8451a80f6e72d12cdb5241e7ebba1418ff4"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/assets/header.svg",
+      "bytes": 722,
+      "sha256": "753984e9055d3f235d2fbfc3330c95a921cf3b76f3aaa23392e692a61dea74d9"
     },
     {
       "path": "projects/econometrics-research-toolkit/demo_output/coefficients_hc3.csv",
@@ -144,7 +644,7 @@
     {
       "path": "projects/econometrics-research-toolkit/demo_output/fit.svg",
       "bytes": 86145,
-      "sha256": "2776b3c9104d9702c696ab9e85098ea80b1a3cc0eec5ee46dcc29be62986be5b"
+      "sha256": "12c0775f26d1f3d54c4802f8887353018ecdf63cd4d5df1631830d973871a19d"
     },
     {
       "path": "projects/econometrics-research-toolkit/demo_output/model_comparison.csv",
@@ -159,7 +659,7 @@
     {
       "path": "projects/econometrics-research-toolkit/demo_output/top_model_summaries.txt",
       "bytes": 20070,
-      "sha256": "72a41dcd5a5d469e3de4ac9a9fb13370a787f85f4fc45e878db413e657027e75"
+      "sha256": "228662d0ee4e4a4245167f041c222732e7992e0a4c6fabf1979636d65a359c7c"
     },
     {
       "path": "projects/econometrics-research-toolkit/demo_output/vif.csv",
@@ -167,9 +667,59 @@
       "sha256": "5ba70010d9de1309cf85a78a3ba631c80ad647c9aba95d53c22daafa06b76ec4"
     },
     {
+      "path": "projects/econometrics-research-toolkit/docs/CLI.txt",
+      "bytes": 634,
+      "sha256": "c972cd7c235555ad9d8d7e80df72d1faff54e9cca3e5cc883393840bebd91240"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/docs/DATA_DICTIONARY.md",
+      "bytes": 727,
+      "sha256": "6357752c683a01c5f6b4bb3e47f0dbad9e26afd1263b477ac368f0c00e1fa41c"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/docs/METHODS.md",
+      "bytes": 1383,
+      "sha256": "77ab99d6a1a41aa3f7f2f2efb007377ea8d75c1ea025cea2d5fbcdcf859eab8f"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/docs/PROVENANCE.md",
+      "bytes": 1151,
+      "sha256": "5da25f7df22ca70836b487c24c9815771294d7064f256587c9dc4858ed8d5138"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/docs/REFERENCES.md",
+      "bytes": 463,
+      "sha256": "45019df941d196531ed82977af8d7f2396a66f78369414937ff93ba6aac339fd"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/docs/RESULTS.md",
+      "bytes": 911,
+      "sha256": "5c7923b38fbb486166a41410b7f6d24425a33d9793e14b66bf64aaca62e1296e"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/docs/ROADMAP.md",
+      "bytes": 359,
+      "sha256": "a2a91909140cd9adf1160f1340fee91490f5d000e10e5fa10fc3fae347ed7cae"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/docs/environment.json",
+      "bytes": 278,
+      "sha256": "c12143b6512ab77c7898db33d7d05dda805d20f6a8a41feb33906f0dd55ffae2"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/notebooks/01_results_walkthrough.ipynb",
+      "bytes": 4148,
+      "sha256": "c1b7b46e646a7cf59d2afc827e4327f8782639dddc5a0c34835f013c3b34dd97"
+    },
+    {
       "path": "projects/econometrics-research-toolkit/requirements.txt",
       "bytes": 58,
       "sha256": "4d9945c8f4d5fd196968d52c9dd25b01496c91661c1b38adc90f9fdf9b6f0233"
+    },
+    {
+      "path": "projects/econometrics-research-toolkit/test_search_budget.py",
+      "bytes": 582,
+      "sha256": "346174ac4cbcc4c015c7d4c61266a3c4a44721cd25d48d97016d622a73fe7a4e"
     },
     {
       "path": "projects/econometrics-research-toolkit/test_toolkit.py",
@@ -178,18 +728,48 @@
     },
     {
       "path": "projects/econometrics-research-toolkit/toolkit.py",
-      "bytes": 6276,
-      "sha256": "5981a388010305d0aaf6975caae0e9d880a0a213d369d7edac27c42a5c251f54"
+      "bytes": 6582,
+      "sha256": "7ea332726d03984d58788c5e39bf4ae9ac9dcb098d2a7a3aa903702b6ff8e75a"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/.gitattributes",
+      "bytes": 54,
+      "sha256": "7ae984b50ced7a800f4d97bc3f53471819f84860bbfc71a8658f1162a9f3fc95"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/.gitignore",
+      "bytes": 161,
+      "sha256": "226529a2f80dc277d24a19fc76db3779708389691b815cacf6c6dc27228fdcde"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/.python-version",
+      "bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/CITATION.cff",
+      "bytes": 397,
+      "sha256": "9409d240e7a0e77289a1969e6bf3aac7b07586b81336ed11505a5e9918a0a63f"
     },
     {
       "path": "projects/gold-vs-equities-india/README.md",
-      "bytes": 2023,
-      "sha256": "824993ecf39a103ab2bff55fce64ae2e945a3803e11006ba808e81771aee6789"
+      "bytes": 3950,
+      "sha256": "b4d26e445cab7119dd715122eaec9a521d0ab431d601204d91095abd9daabfa0"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/REPRODUCIBILITY.md",
+      "bytes": 1306,
+      "sha256": "ab32c50024483cc46a6a79d2bb286cc7bfce6600f82a27f7f31a9314aae2e3c5"
     },
     {
       "path": "projects/gold-vs-equities-india/analysis.py",
       "bytes": 8302,
       "sha256": "8bcae56955fb15f84d264351eda13087c4100f4a159f6a9d04be41f67fd0fa7d"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/assets/header.svg",
+      "bytes": 718,
+      "sha256": "280a800944e9ddbebfbf1311d29c73a4c87176b1f75daa4c0b8390f32a07d2f9"
     },
     {
       "path": "projects/gold-vs-equities-india/demo_output/allocation_comparison.csv",
@@ -204,7 +784,7 @@
     {
       "path": "projects/gold-vs-equities-india/demo_output/growth.svg",
       "bytes": 346680,
-      "sha256": "2e000f41fd692b5275104260d5572a687de76f30e9ee80b5c33b0d5131d97cbf"
+      "sha256": "9deb78ea4e65cefb5aa207cce764ffd955775d620a53e86c0595c0ea5a0691d7"
     },
     {
       "path": "projects/gold-vs-equities-india/demo_output/performance.csv",
@@ -227,9 +807,59 @@
       "sha256": "bafc83a02db022193f1aed381317189e1fcf4027738355f9d87a3d4fb344de7f"
     },
     {
+      "path": "projects/gold-vs-equities-india/docs/CLI.txt",
+      "bytes": 612,
+      "sha256": "64d371cf1d03a5e73f26b5938769978b94cc9fc756dbafe41e9e1a8d1af015c8"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/docs/DATA_DICTIONARY.md",
+      "bytes": 698,
+      "sha256": "b1c79a5937892750413c2bb1f79914890fdb224cc736468cd663c09a959ef6ce"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/docs/METHODS.md",
+      "bytes": 1557,
+      "sha256": "ed9bede174ad2289f2f51b5ccfc6f711fe2d8b11f38875e86a3afe54372c4c2a"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/docs/PROVENANCE.md",
+      "bytes": 1023,
+      "sha256": "768a48cc0e7eed8427e53f9286a557c2b5dbead7a0cdefb35f1ea861ef0ebcb5"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/docs/REFERENCES.md",
+      "bytes": 357,
+      "sha256": "ac4c2b404d2e3b3771a82fb839ade342c41277249e5f6d605683f3419e3de960"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/docs/RESULTS.md",
+      "bytes": 886,
+      "sha256": "d609d43762b919cefbabb8b7ac51a26ae4389736c19b01d81b2867c510efa5a8"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/docs/ROADMAP.md",
+      "bytes": 340,
+      "sha256": "0cd6b12ccaaac1b5818ea95933d0adaa901d8889017a6f838765445023148547"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/docs/environment.json",
+      "bytes": 278,
+      "sha256": "c12143b6512ab77c7898db33d7d05dda805d20f6a8a41feb33906f0dd55ffae2"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/notebooks/01_results_walkthrough.ipynb",
+      "bytes": 3475,
+      "sha256": "130072202b8f8622bde4d68117bdb883fbabb321e93bd3aa088b008812dcd3de"
+    },
+    {
+      "path": "projects/gold-vs-equities-india/requirements-download.txt",
+      "bytes": 34,
+      "sha256": "7fab65272e6166e24eddff38767cc2df024480d63b449a9c1e01a0c4fc0ab84a"
+    },
+    {
       "path": "projects/gold-vs-equities-india/requirements.txt",
-      "bytes": 93,
-      "sha256": "1fb61f774722b87b0de3f71143e540d2ddc7081f5713b7d3fcb9ebff2806b7ea"
+      "bytes": 40,
+      "sha256": "982c24839a17e4ed89742eb74690aca75fbf40aeb1247d88bd456aa37e2f1be2"
     },
     {
       "path": "projects/gold-vs-equities-india/test_analysis.py",
@@ -237,9 +867,279 @@
       "sha256": "65b4abd7da5e85fbbd768702e63404f5f3889d3f16e23a98ad0dd572c02d35bc"
     },
     {
+      "path": "projects/india-external-sector-forecasting/.gitattributes",
+      "bytes": 54,
+      "sha256": "7ae984b50ced7a800f4d97bc3f53471819f84860bbfc71a8658f1162a9f3fc95"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/.gitignore",
+      "bytes": 161,
+      "sha256": "226529a2f80dc277d24a19fc76db3779708389691b815cacf6c6dc27228fdcde"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/.python-version",
+      "bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/CITATION.cff",
+      "bytes": 412,
+      "sha256": "eff8515fbe4e9e59f422c13308873d9ef9e4dfc1e63ef36d9df8e41f3bd4adfc"
+    },
+    {
       "path": "projects/india-external-sector-forecasting/README.md",
-      "bytes": 1823,
-      "sha256": "0323ac56254bf67a9b8db51d8167ef9d28eb30f7a0027f61fddf6a94fcfdfe27"
+      "bytes": 4315,
+      "sha256": "96ee957696b912672146cae82565b25dbf93616a5d816afb204f140483c0f6ab"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/REPRODUCIBILITY.md",
+      "bytes": 1328,
+      "sha256": "45784f75e8eaab67a48a2881706afe13a83ca894c5f37143bc7819ad6c767cf4"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/assets/header.svg",
+      "bytes": 734,
+      "sha256": "cef8327fc25b273df94fdba2250c1024b186909818bf0f972ad9dabe4601c878"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/demo_output/forecast_components.csv",
+      "bytes": 908,
+      "sha256": "478d9fb4b90fbe6cb8ee5664a4de113c4c313111f3da46ec97590c9e9dc287da"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/demo_output/forecast_evaluation.svg",
+      "bytes": 47708,
+      "sha256": "07a4c6d6d58d5669635de56885196658302b6851d048cbfe205edacbd85fa0b2"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/demo_output/run_metadata.json",
+      "bytes": 725,
+      "sha256": "99caea9432e45ced1e3e5f605cba55c57f45414d2dc84b2a0efdad3457156135"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/demo_output/synthetic_history.csv",
+      "bytes": 20206,
+      "sha256": "4d21c59f2f5e9cd852477b48edfee31fab2fd561819fc4488d12793f6abf17a4"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/demo_output/test_metrics.csv",
+      "bytes": 559,
+      "sha256": "0fadbb2586b07d213159dc374b47f66f6bd315ac6fc0cf57c9df76695327710b"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/demo_output/test_predictions.csv",
+      "bytes": 22977,
+      "sha256": "14bce98f925f6732549fe3470dcc07849ea63637020891434ac8c6a970dba9a4"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/demo_output/validation_metrics.csv",
+      "bytes": 504,
+      "sha256": "c0350bae0aea2319faf2d706820ac7a4b3bc2c37b33017c2fc95a4591842bfc3"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/demo_output/validation_predictions.csv",
+      "bytes": 17236,
+      "sha256": "b0772dd12aeaeaca9fbb2f2b7f545e4fcabd9e7efb68797df121cd0c55fda627"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/docs/CLI.txt",
+      "bytes": 414,
+      "sha256": "4c97599d6f312bb5a2ba7b240bf34c3cf4c14d92dd119312fb6c865b6c68240c"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/docs/DATA_DICTIONARY.md",
+      "bytes": 858,
+      "sha256": "236d268f0d37c0be8b750064bbf4bb96bf091f4c3edc76f932af6b49a01f635e"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/docs/METHODS.md",
+      "bytes": 1688,
+      "sha256": "c8a2bb8b55e7a7486dcf987b7505b471e4334ebf222cedc5767609e738f1375f"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/docs/PROVENANCE.md",
+      "bytes": 1157,
+      "sha256": "8270931753d5e16ecd5790b294e98451717b82b364b1539025a73098557b6645"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/docs/REFERENCES.md",
+      "bytes": 311,
+      "sha256": "1935ae452515ef34fbad3bad6331c2247a84c803ea8fe8fed4a8b607c42920c9"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/docs/RESEARCH_SCOPE.md",
+      "bytes": 1836,
+      "sha256": "c34cf1ddbf07146dcf1e8722fb51278bbed4ab26c258a94acf1e068d47530d87"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/docs/RESULTS.md",
+      "bytes": 926,
+      "sha256": "f96cbed63b21ca53173d32c3fca1206470736575ad411fc19e181d60fb6cddd7"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/docs/ROADMAP.md",
+      "bytes": 441,
+      "sha256": "98297b8d155d849ba5793a6b2340db67128a041d0feb0c6c822474f8a51ad63a"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/docs/environment.json",
+      "bytes": 278,
+      "sha256": "c12143b6512ab77c7898db33d7d05dda805d20f6a8a41feb33906f0dd55ffae2"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/forecast_demo.py",
+      "bytes": 9621,
+      "sha256": "9d73aa6a6490f5e48de4304b737780545dbb488074b48dafc37ca2709a0e3b7e"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/notebooks/01_results_walkthrough.ipynb",
+      "bytes": 3747,
+      "sha256": "ed88d772302de2543fd4cc13bc9f94043add1adfcdb1a9246512f09900da714c"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/requirements.txt",
+      "bytes": 40,
+      "sha256": "982c24839a17e4ed89742eb74690aca75fbf40aeb1247d88bd456aa37e2f1be2"
+    },
+    {
+      "path": "projects/india-external-sector-forecasting/test_forecast_demo.py",
+      "bytes": 2791,
+      "sha256": "80fec2e6a82d8abbbcd57035a0018a37f9bece4d760dbdb74f1845501ed4d224"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/.gitattributes",
+      "bytes": 54,
+      "sha256": "7ae984b50ced7a800f4d97bc3f53471819f84860bbfc71a8658f1162a9f3fc95"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/.gitignore",
+      "bytes": 161,
+      "sha256": "226529a2f80dc277d24a19fc76db3779708389691b815cacf6c6dc27228fdcde"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/.python-version",
+      "bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/CITATION.cff",
+      "bytes": 403,
+      "sha256": "26e4b951150ba9b3314784b4b491f939af5c2e52e4a8a73e49c929bd79c06848"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/README.md",
+      "bytes": 4021,
+      "sha256": "99a0f453015ad4b3d9f5afe64320019b2f6d77a946e273ab40d91f39635b6f07"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/REPRODUCIBILITY.md",
+      "bytes": 1338,
+      "sha256": "8814056f0dfd95599081fbb1dcf1b91b6b32fcd34925481df378e450bfbeda1e"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/assets/header.svg",
+      "bytes": 749,
+      "sha256": "e4a67511df4503b8f6ee9a985145ce21640013f418f073c0c99ad0ebda9ea60c"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/demo_output/lstm_evaluation.svg",
+      "bytes": 75758,
+      "sha256": "b55c54b5a92799d757d9d3789f713ebafbb0f6d42e5ef8447672690d02debc4f"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/demo_output/model_state.json",
+      "bytes": 9911,
+      "sha256": "244697340da9c9cec2f2522be29e3bbdf12cd14355059942a861cd338b35df54"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/demo_output/run_metadata.json",
+      "bytes": 758,
+      "sha256": "61cf8208b8c9a173a747243908af4cb92d2f59bea81515218c0ea64c76ddcfec"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/demo_output/synthetic_returns.csv",
+      "bytes": 23479,
+      "sha256": "4bf67d2318a3bd341eaf814315d4f5ee3bf3ab12b591d433ded56d37b53a9b5b"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/demo_output/synthetic_strategy.csv",
+      "bytes": 16879,
+      "sha256": "15dbec3f9c79428b0d05ae584fdc006c32776f0b874d07ca31cc31e12044519a"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/demo_output/test_forecasts.csv",
+      "bytes": 11710,
+      "sha256": "b2d1320a5f5eea1d1378e0535e18c09742fa0ebd203394fd53dbd68b1059345d"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/demo_output/test_metrics.csv",
+      "bytes": 183,
+      "sha256": "6333c7a2efe7b5ded8f98e8e3cfe58145729d12e80df0616bafdb7fcbb864515"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/demo_output/training_history.csv",
+      "bytes": 841,
+      "sha256": "7d706f634bfdc629abca74cb610af06756c2e93fea2d50c02d7807dda33117b3"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/docs/CLI.txt",
+      "bytes": 457,
+      "sha256": "6cdd3de2c78c20e5fef89503603afc77ce1029cee493e2a36f22b9418d6aab67"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/docs/DATA_DICTIONARY.md",
+      "bytes": 774,
+      "sha256": "fb7ece595bc37013b1627d139c06b49e9a4640140d9d87d5382120e469f4b727"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/docs/METHODS.md",
+      "bytes": 1915,
+      "sha256": "23817efc9d39fb39e1cedf7f9c890c9825b1946c8f2e1709edecf69f4d3840a7"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/docs/PROVENANCE.md",
+      "bytes": 1146,
+      "sha256": "0aefbf4e7239ce83f6e54a4dcd5dcd763c6ac0e16e31eb8d73b0147386ec4df7"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/docs/REFERENCES.md",
+      "bytes": 366,
+      "sha256": "42f04b798c16ecde9bf9ef511bca59965ca832b032f4363c243ca3593dfc5620"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/docs/RESULTS.md",
+      "bytes": 868,
+      "sha256": "c5a62539a358e37c63c1e17c2c108c6676f2c09f14dc27d6f18a8f9cdfb4c66e"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/docs/ROADMAP.md",
+      "bytes": 434,
+      "sha256": "c1147888d21c9c7a0a74420e6800e8e486b800c8a22ba0169c77948f1894435a"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/docs/environment.json",
+      "bytes": 278,
+      "sha256": "c12143b6512ab77c7898db33d7d05dda805d20f6a8a41feb33906f0dd55ffae2"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/lstm_lab.py",
+      "bytes": 12000,
+      "sha256": "7d3fe9267f7fd6be4404c755657760242820033f2ddea79a216105faa19570ec"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/notebooks/01_results_walkthrough.ipynb",
+      "bytes": 3212,
+      "sha256": "f83ad8b197924bca5adc83e0e75c165dde2a90f2ab3e85a677b7ba789edb41f9"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/requirements.txt",
+      "bytes": 40,
+      "sha256": "982c24839a17e4ed89742eb74690aca75fbf40aeb1247d88bd456aa37e2f1be2"
+    },
+    {
+      "path": "projects/lstm-time-series-lab/test_lstm_lab.py",
+      "bytes": 2523,
+      "sha256": "fc8131c64f24a4c6c6df716276df2bbe20dcd8c66793e0582a26f6ee6fa761e2"
     }
   ]
 }

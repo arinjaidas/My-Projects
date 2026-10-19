@@ -40,6 +40,7 @@ def black_scholes(spot, strike, maturity, rate, volatility, kind='call', dividen
 
 def delta(spot, strike, maturity, rate, volatility, kind='call', dividend_yield=0.0):
     validate(spot, strike, maturity, volatility, kind)
+    if not np.isfinite([rate, dividend_yield]).all(): raise ValueError('Rates must be finite.')
     if maturity == 0 or volatility == 0: raise ValueError('Delta requires positive maturity and volatility.')
     d1 = (log(spot / strike) + (rate - dividend_yield + .5 * volatility ** 2) * maturity) / (volatility * sqrt(maturity))
     return exp(-dividend_yield * maturity) * (normal_cdf(d1) - (kind == 'put'))
@@ -47,6 +48,7 @@ def delta(spot, strike, maturity, rate, volatility, kind='call', dividend_yield=
 
 def implied_volatility(price, spot, strike, maturity, rate, kind='call', dividend_yield=0.0):
     validate(spot, strike, maturity, 0, kind)
+    if not np.isfinite([rate, dividend_yield]).all(): raise ValueError('Rates must be finite.')
     if not np.isfinite(price) or maturity == 0: raise ValueError('Finite price and positive maturity required.')
     ds, dk = spot * exp(-dividend_yield * maturity), strike * exp(-rate * maturity)
     lower = max(ds - dk, 0.0) if kind == 'call' else max(dk - ds, 0.0)
@@ -63,6 +65,7 @@ def implied_volatility(price, spot, strike, maturity, rate, kind='call', dividen
 
 def binomial_european(spot, strike, maturity, rate, volatility, kind='call', steps=400, dividend_yield=0.0):
     validate(spot, strike, maturity, volatility, kind)
+    if not np.isfinite([rate, dividend_yield]).all(): raise ValueError('Rates must be finite.')
     if not isinstance(steps, int) or steps < 1: raise ValueError('Positive integer step count required.')
     if maturity == 0 or volatility == 0:
         return black_scholes(spot, strike, maturity, rate, volatility, kind, dividend_yield)
@@ -78,6 +81,7 @@ def binomial_european(spot, strike, maturity, rate, volatility, kind='call', ste
 
 def monte_carlo_european(spot, strike, maturity, rate, volatility, kind='call', paths=100000, seed=20261019, dividend_yield=0.0):
     validate(spot, strike, maturity, volatility, kind)
+    if not np.isfinite([rate, dividend_yield]).all(): raise ValueError('Rates must be finite.')
     if not isinstance(paths, int) or paths < 2: raise ValueError('At least two paths required.')
     z = np.random.default_rng(seed).standard_normal(paths)
     terminal = spot * np.exp((rate - dividend_yield - .5 * volatility ** 2) * maturity + volatility * sqrt(maturity) * z)

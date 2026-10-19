@@ -66,7 +66,7 @@ def run(frame,output,synthetic=False):
         'lpm_default_coefficient':float(lpm.params['Default']),
         'logit_average_discrete_change':ame,
         'interpretation':'Simulated workflow demonstration, not an estimate from the original study.' if synthetic else 'Conditional associations; causal interpretation depends on design and allocation.',
-        'archived_results':'Supplied historical aggregate outputs are stored separately and are not reproduced by this demonstration.'}
+        'archived_results':'Original study results are excluded from this public edition.'}
     (output/'run_metadata.json').write_text(json.dumps(result,indent=2))
     if synthetic:data.to_csv(output/'synthetic_anonymous_responses.csv',index=False)
     fig,ax=plt.subplots(figsize=(6.5,4.5))

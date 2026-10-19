@@ -1,35 +1,79 @@
-# Derivatives, Volatility and Portfolio-Risk Lab
+![Derivatives and Portfolio Risk Lab](assets/header.svg)
 
-A quantitative-finance project exploring European option valuation, hedging and structured-product payoffs.
+# Derivatives and Portfolio Risk Lab
 
-## Provenance
+European option pricing, implied volatility, numerical valuation and hedging payoffs with independently checked illustrative scenarios.
 
-The documented 2024 coursework included VXX and equity volatility, option-pricing and hedging prototypes, trading-rule analysis and structured-product design. Some original code was incomplete or used illustrative market inputs. This public edition is a new October 2026 reconstruction of the core pricing and payoff methods, not a recovered copy of the original multi-stock implementation.
+**Research question:** How do analytical and numerical option-pricing methods compare, and how do common hedging structures change terminal payoffs?
 
-## Included methods
+**Public edition:** New reconstruction of the core valuation and payoff methods using illustrative inputs.
 
-- European Black-Scholes call/put valuation with continuous dividend yield.
-- Delta and implied-volatility inversion with option-bound checks.
-- Cox-Ross-Rubinstein binomial pricing and seeded Monte Carlo valuation.
-- Covered-call and protective-put P&L.
-- A 70-bond/30-call allocation's terminal payoff.
+**8 functional checks passed locally**, plus a complete demonstration run.
 
-![Synthetic payoff examples](demo_output/payoffs.svg)
+## What you can inspect
 
-## Run
+- Price European calls and puts with Black-Scholes and continuous dividend yield.
+- Compute delta and recover implied volatility subject to no-arbitrage bounds.
+- Cross-check analytical prices with CRR binomial and seeded Monte Carlo valuation.
+- Compare covered-call and protective-put expiry P&L.
+- Inspect the terminal payoff of a 70-percent bond and 30-percent call allocation.
+
+## Results preview
+
+All values below are synthetic or illustrative workflow results.
+
+![Derivatives and Portfolio Risk Lab results preview](demo_output/payoffs.svg)
+
+| Calculation | Illustrative value |
+| --- | --- |
+| Analytical call | 9.55626 |
+| Analytical put | 10.4391 |
+| Binomial call | 9.55194 |
+| Monte Carlo call | 9.57773 |
+| Monte Carlo standard error | 0.0529321 |
+| Recovered volatility | 0.25 |
+
+The numerical and analytical call estimates are close under the common assumed model. Simulation error is distinct from uncertainty about the model itself.
+
+## Run the example
+
+Use Python 3.12. From this project's directory:
 
 ```bash
 python -m pip install -r requirements.txt
-python -m unittest -v test_pricing.py
+python -m unittest discover -v
 python pricing.py --output demo_output
 ```
 
-Seven checks cover put-call parity, expiry/zero-volatility limits, volatility inversion, invalid prices, finite-difference delta, independent numerical pricing and the protective-put floor.
+For an isolated environment, run `python -m venv .venv` first. Activate it with `source .venv/bin/activate` on Linux/macOS or `.venv\Scripts\activate` on Windows. The standard example runs offline after dependencies are installed.
 
-## Interpretation
+The [notebook walkthrough](notebooks/01_results_walkthrough.ipynb) explains the saved outputs. Exact command-line options appear in [CLI.txt](docs/CLI.txt).
 
-All included pricing inputs and scenarios are illustrative. Models assume European exercise, constant rates/volatility and no transaction costs. Payoff charts subtract nominal initial outlay without financing costs. A 70-percent bond allocation is not full principal protection.
+## Documentation
 
-## Attribution
+| Guide | What it covers |
+| --- | --- |
+| [Methods](docs/METHODS.md) | Formulas, assumptions and interpretation |
+| [Data dictionary](docs/DATA_DICTIONARY.md) | Variables, units and validation rules |
+| [Results](docs/RESULTS.md) | Actual bundled output and how to read it |
+| [Reproducibility](REPRODUCIBILITY.md) | Commands, checks and the recorded environment |
+| [Provenance and attribution](docs/PROVENANCE.md) | Historical context, reconstruction and contribution |
+| [Roadmap](docs/ROADMAP.md) | Specific extensions, with unfinished work labelled |
+| [References](docs/REFERENCES.md) | Method documentation and source links |
 
-Arinjai Das. Original coursework/research period: June-July 2024. Public reconstruction: October 2026, developed with ChatGPT assistance.
+## Limits of interpretation
+
+- European exercise, constant rates and constant volatility are simplifying assumptions.
+- Expiry P&L subtracts nominal initial outlay and omits financing costs.
+- No transaction costs, bid-ask spread or market calibration is included.
+- A 70-percent bond allocation is not full principal protection.
+
+## Contribution and research context
+
+Documented June-July 2024 coursework on options, volatility, hedging, equity analysis and structured products.
+
+Arinjai Das worked on the documented quantitative-finance coursework. The public reconstruction implements and checks the core methods; it is not a recovered copy of the earlier multi-stock scripts or an investment track record.
+
+**Skills demonstrated:** Python, quantitative finance, option pricing, implied volatility, Monte Carlo, hedging, numerical methods.
+
+[Portfolio](https://github.com/arinjaidas/My-Projects) · [GitHub profile](https://github.com/arinjaidas)

@@ -1,0 +1,68 @@
+name: Verify public portfolio
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'projects/**'
+      - '.github/workflows/verify.yml'
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  examples:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        include:
+          - project: gold-vs-equities-india
+            entry: analysis.py --demo
+            tests: true
+          - project: econometrics-research-toolkit
+            entry: toolkit.py --demo
+            tests: true
+          - project: derivatives-and-portfolio-risk-lab
+            entry: pricing.py
+            tests: true
+          - project: digital-payments-choice-experiment
+            entry: demo.py --demo
+            tests: true
+          - project: bharat-fx
+            entry: public_demo.py --demo
+            tests: true
+          - project: india-external-sector-forecasting
+            entry: forecast_demo.py --demo
+            tests: true
+          - project: arma-student-t-simulation
+            entry: simulation.py
+            tests: true
+          - project: lstm-time-series-lab
+            entry: lstm_lab.py --demo
+            tests: true
+    defaults:
+      run:
+        working-directory: projects/${{ matrix.project }}
+    env:
+      MPLBACKEND: Agg
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: projects/${{ matrix.project }}/requirements.txt
+      - run: python -m pip install -r requirements.txt
+      - name: Run functional checks
+        if: matrix.tests
+        run: python -m unittest discover -v
+      - name: Run complete example
+        run: python ${{ matrix.entry }} --output "${RUNNER_TEMP}/example_output"

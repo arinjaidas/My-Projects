@@ -1,0 +1,11 @@
+usage: simulation.py [-h] [--output OUTPUT] [--replications REPLICATIONS]
+
+Reconstruction of the documented December 2024 ARMA(1,1) exercise. Student-t
+innovations are rescaled to the requested innovation variance. The Python
+reference is executable; accompanying MATLAB files are unexecuted in this
+release because MATLAB/Octave is unavailable in the release runtime.
+
+options:
+  -h, --help            show this help message and exit
+  --output OUTPUT
+  --replications REPLICATIONS

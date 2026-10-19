@@ -2,13 +2,22 @@
 
 Release date: 19 October 2026.
 
-| Public implementation | Functional checks | Synthetic end-to-end run |
-| --- | ---: | --- |
-| Gold/equities reconstruction | 5 passed | Passed |
-| Derivatives reconstruction | 7 passed | Passed |
-| Econometrics reconstruction | 4 passed | Passed |
-| Payment-choice demonstration | 3 passed | Passed |
+| Public edition | Functional checks | Complete example run |
+| --- | --- | --- |
+| Gold versus Equities in India | 5 | passed |
+| Econometrics Research Toolkit | 5 | passed |
+| Derivatives and Portfolio Risk Lab | 8 | passed |
+| Digital Payments and Default Choice | 3 | passed |
+| BHARAT-FX | 10 | passed |
+| India External-Sector Forecasting | 10 | passed |
+| ARMA Simulation with Student-t Innovations | 8 | passed |
+| LSTM Time-Series and Trading Workflow | 8 | passed |
+| Behavioural Responses to Economic Recessions | Public overview only | Full package prepared separately |
 
-The market-data download mode was not exercised. Demonstration output is synthetic. Original payment-study estimates were not regenerated from participant records.
+**Total: 57 functional checks and 8 complete public example runs.**
 
-The staged external-sector forecasting archive separately passed a complete local numerical reproduction and 821 checks. The staged BHARAT-FX archive separately passed selected accounting, transition-matrix and syntax checks; its advanced modelling pipeline was not rerun. Those original archives are awaiting public-sharing approval and are not included here.
+The review's separately prepared index-arithmetic checks are not counted as public unit tests. Eight public walkthrough notebooks read the verified result files; their cells were executed locally with Python and retain that output. A separate Jupyter-kernel execution is not claimed.
+
+The checks include independent option-pricing comparisons, ARMA moments against statsmodels, LSTM derivatives against finite differences, temporal leakage checks, accounting identities, transaction costs and malformed-input rejection.
+
+Verification used Python 3.12.14. Exact package versions and per-project status are in [release_verification.json](release_verification.json). The code was checked locally; hosted CI is a separate status. MATLAB companion execution, the optional downloader, excluded original archives and a full source audit of the review are outside this record.

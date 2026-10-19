@@ -1,41 +1,80 @@
-# Gold versus Equities: Investment and Asset Allocation in India
+![Gold versus Equities in India](assets/header.svg)
 
-An investment-analysis workflow comparing gold, Indian equities and an international equity benchmark from an INR perspective.
+# Gold versus Equities in India
 
-## Research question
+INR-based asset comparison, drawdowns, rolling returns and gold-equity allocation analysis with reproducible synthetic examples.
 
-How do growth, volatility, drawdowns and diversification change across assets and gold-equity allocations? The documented original project was developed in December 2025. Its original local source files were not recoverable, so this is a clearly labelled October 2026 public reconstruction.
+**Research question:** How do growth, volatility, downside risk and diversification change when gold and equities are compared from an Indian investor's currency perspective?
 
-## Methods
+**Public edition:** Reconstructed Python implementation with synthetic demonstration data and outputs.
 
-- Currency-consistent S&P 500 conversion through USD/INR.
-- Calendar-time CAGR, cumulative returns, volatility, drawdowns, Sharpe/Sortino ratios and lower-tail returns.
-- Correlations and a grid of gold-equity allocations.
-- Explicit daily-rebalanced and buy-and-hold portfolio comparisons.
-- Calendar-based rolling CAGR, with no fabricated values before a complete window exists.
+**5 functional checks passed locally**, plus a complete demonstration run.
 
-![Synthetic example](demo_output/growth.svg)
+## What you can inspect
 
-## Run
+- Validate positive, finite prices and explicitly align observed common dates.
+- Convert the US equity benchmark to INR using the contemporaneous USD/INR level.
+- Compute calendar-time CAGR, annualised volatility, drawdowns and excess-return ratios.
+- Compare daily rebalancing with buy-and-hold allocations.
+- Evaluate a grid of 21 gold weights and complete five-year rolling windows.
+
+## Results preview
+
+All values below are synthetic or illustrative workflow results.
+
+![Gold versus Equities in India results preview](demo_output/growth.svg)
+
+| Series | CAGR (%) | Volatility (%) | Maximum drawdown (%) |
+| --- | --- | --- | --- |
+| Gold | 0.347797 | 14.5012 | -41.8218 |
+| Nifty | 18.629 | 19.3282 | -29.3139 |
+| SP500_INR | 5.91025 | 18.4916 | -33.9697 |
+| Nifty80_Gold20_daily | 15.2416 | 15.9372 | -26.6112 |
+| Nifty80_Gold20_buy_hold | 16.8611 | 17.9996 | -28.3411 |
+
+The daily-rebalanced and buy-and-hold allocations differ because the rebalancing rule changes the wealth path. The example does not identify a historically best investment.
+
+## Run the example
+
+Use Python 3.12. From this project's directory:
 
 ```bash
 python -m pip install -r requirements.txt
-python -m unittest -v test_analysis.py
+python -m unittest discover -v
 python analysis.py --demo --output demo_output
 ```
 
-The included output is synthetic, not historical investment performance. For a permitted CSV:
+For an isolated environment, run `python -m venv .venv` first. Activate it with `source .venv/bin/activate` on Linux/macOS or `.venv\Scripts\activate` on Windows. The standard example runs offline after dependencies are installed.
 
-```bash
-python analysis.py --prices your_prices.csv --output results
-```
+The [notebook walkthrough](notebooks/01_results_walkthrough.ipynb) explains the saved outputs. Exact command-line options appear in [CLI.txt](docs/CLI.txt).
 
-Required columns are Date, GOLD_INR, NIFTY_INR, SP500_USD and USDINR. Prices must be positive, complete and aligned on observed common dates. The optional --download mode uses yfinance; market-data retrieval was not exercised during release verification.
+## Documentation
 
-## Assumptions
+| Guide | What it covers |
+| --- | --- |
+| [Methods](docs/METHODS.md) | Formulas, assumptions and interpretation |
+| [Data dictionary](docs/DATA_DICTIONARY.md) | Variables, units and validation rules |
+| [Results](docs/RESULTS.md) | Actual bundled output and how to read it |
+| [Reproducibility](REPRODUCIBILITY.md) | Commands, checks and the recorded environment |
+| [Provenance and attribution](docs/PROVENANCE.md) | Historical context, reconstruction and contribution |
+| [Roadmap](docs/ROADMAP.md) | Specific extensions, with unfinished work labelled |
+| [References](docs/REFERENCES.md) | Method documentation and source links |
 
-The default risk-free rate is zero and volatility annualisation uses 252 observations per year; both are configurable. Transaction costs and taxes are not modelled. Gold/equity ETF proxies and a US price index have different fee and distribution characteristics, which must be considered when interpreting real-data comparisons.
+## Limits of interpretation
 
-## Attribution
+- Bundled results are synthetic, so their asset rankings are not historical evidence.
+- Transaction costs, taxes and financing are not modelled.
+- ETF proxies and a price index have different fee and distribution characteristics.
+- The optional market-data download path was not exercised during release verification.
 
-Arinjai Das. Original research scope: December 2025. Reconstructed public implementation: October 2026, developed with ChatGPT assistance.
+## Contribution and research context
+
+Documented December 2025 investment-analysis project; public reconstruction prepared in October 2026.
+
+Arinjai Das developed the documented investment-analysis scope. The public implementation was reconstructed with ChatGPT assistance after the original local scripts could not be recovered.
+
+**Skills demonstrated:** Python, asset allocation, financial data, risk metrics, currency conversion, reproducible analysis.
+
+[Portfolio](https://github.com/arinjaidas/My-Projects) · [GitHub profile](https://github.com/arinjaidas)
+
+For the optional market-data downloader, install `requirements-download.txt`. That retrieval path is separate from the verified offline example.

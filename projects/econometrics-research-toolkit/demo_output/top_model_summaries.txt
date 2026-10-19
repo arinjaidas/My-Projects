@@ -5,7 +5,7 @@ Dep. Variable:        life_expectancy   R-squared:                       0.715
 Model:                            OLS   Adj. R-squared:                  0.712
 Method:                 Least Squares   F-statistic:                     245.8
 Date:                Mon, 19 Oct 2026   Prob (F-statistic):          2.31e-104
-Time:                        09:53:06   Log-Likelihood:                -981.61
+Time:                        11:06:34   Log-Likelihood:                -981.61
 No. Observations:                 388   AIC:                             1973.
 Df Residuals:                     383   BIC:                             1993.
 Df Model:                           4                                         
@@ -35,7 +35,7 @@ Dep. Variable:        life_expectancy   R-squared:                       0.715
 Model:                            OLS   Adj. R-squared:                  0.712
 Method:                 Least Squares   F-statistic:                     239.4
 Date:                Mon, 19 Oct 2026   Prob (F-statistic):          8.78e-103
-Time:                        09:53:06   Log-Likelihood:                -981.63
+Time:                        11:06:34   Log-Likelihood:                -981.63
 No. Observations:                 388   AIC:                             1973.
 Df Residuals:                     383   BIC:                             1993.
 Df Model:                           4                                         
@@ -65,7 +65,7 @@ Dep. Variable:        life_expectancy   R-squared:                       0.714
 Model:                            OLS   Adj. R-squared:                  0.712
 Method:                 Least Squares   F-statistic:                     319.9
 Date:                Mon, 19 Oct 2026   Prob (F-statistic):          4.81e-104
-Time:                        09:53:06   Log-Likelihood:                -982.16
+Time:                        11:06:34   Log-Likelihood:                -982.16
 No. Observations:                 388   AIC:                             1972.
 Df Residuals:                     384   BIC:                             1988.
 Df Model:                           3                                         
@@ -94,7 +94,7 @@ Dep. Variable:        life_expectancy   R-squared:                       0.672
 Model:                            OLS   Adj. R-squared:                  0.669
 Method:                 Least Squares   F-statistic:                     191.1
 Date:                Mon, 19 Oct 2026   Prob (F-statistic):           7.35e-90
-Time:                        09:53:06   Log-Likelihood:                -1008.4
+Time:                        11:06:34   Log-Likelihood:                -1008.4
 No. Observations:                 388   AIC:                             2027.
 Df Residuals:                     383   BIC:                             2047.
 Df Model:                           4                                         
@@ -124,7 +124,7 @@ Dep. Variable:        life_expectancy   R-squared:                       0.671
 Model:                            OLS   Adj. R-squared:                  0.669
 Method:                 Least Squares   F-statistic:                     250.3
 Date:                Mon, 19 Oct 2026   Prob (F-statistic):           5.64e-90
-Time:                        09:53:06   Log-Likelihood:                -1009.0
+Time:                        11:06:34   Log-Likelihood:                -1009.0
 No. Observations:                 388   AIC:                             2026.
 Df Residuals:                     384   BIC:                             2042.
 Df Model:                           3                                         
@@ -153,7 +153,7 @@ Dep. Variable:        life_expectancy   R-squared:                       0.671
 Model:                            OLS   Adj. R-squared:                  0.669
 Method:                 Least Squares   F-statistic:                     253.9
 Date:                Mon, 19 Oct 2026   Prob (F-statistic):           8.97e-91
-Time:                        09:53:06   Log-Likelihood:                -1009.0
+Time:                        11:06:34   Log-Likelihood:                -1009.0
 No. Observations:                 388   AIC:                             2026.
 Df Residuals:                     384   BIC:                             2042.
 Df Model:                           3                                         
@@ -182,7 +182,7 @@ Dep. Variable:        life_expectancy   R-squared:                       0.670
 Model:                            OLS   Adj. R-squared:                  0.669
 Method:                 Least Squares   F-statistic:                     372.8
 Date:                Mon, 19 Oct 2026   Prob (F-statistic):           8.78e-91
-Time:                        09:53:06   Log-Likelihood:                -1009.7
+Time:                        11:06:34   Log-Likelihood:                -1009.7
 No. Observations:                 388   AIC:                             2025.
 Df Residuals:                     385   BIC:                             2037.
 Df Model:                           2                                         
@@ -210,7 +210,7 @@ Dep. Variable:        life_expectancy   R-squared:                       0.573
 Model:                            OLS   Adj. R-squared:                  0.570
 Method:                 Least Squares   F-statistic:                     143.7
 Date:                Mon, 19 Oct 2026   Prob (F-statistic):           1.93e-62
-Time:                        09:53:06   Log-Likelihood:                -1059.9
+Time:                        11:06:34   Log-Likelihood:                -1059.9
 No. Observations:                 388   AIC:                             2128.
 Df Residuals:                     384   BIC:                             2144.
 Df Model:                           3                                         
@@ -239,7 +239,7 @@ Dep. Variable:        life_expectancy   R-squared:                       0.571
 Model:                            OLS   Adj. R-squared:                  0.569
 Method:                 Least Squares   F-statistic:                     213.3
 Date:                Mon, 19 Oct 2026   Prob (F-statistic):           4.58e-63
-Time:                        09:53:06   Log-Likelihood:                -1060.7
+Time:                        11:06:34   Log-Likelihood:                -1060.7
 No. Observations:                 388   AIC:                             2127.
 Df Residuals:                     385   BIC:                             2139.
 Df Model:                           2                                         
@@ -267,7 +267,7 @@ Dep. Variable:        life_expectancy   R-squared:                       0.573
 Model:                            OLS   Adj. R-squared:                  0.569
 Method:                 Least Squares   F-statistic:                     107.4
 Date:                Mon, 19 Oct 2026   Prob (F-statistic):           2.85e-61
-Time:                        09:53:06   Log-Likelihood:                -1059.8
+Time:                        11:06:34   Log-Likelihood:                -1059.8
 No. Observations:                 388   AIC:                             2130.
 Df Residuals:                     383   BIC:                             2149.
 Df Model:                           4                                         

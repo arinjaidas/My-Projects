@@ -1,0 +1,22 @@
+{
+  "synthetic": true,
+  "parameters": {
+    "c": 2,
+    "phi": 0.95,
+    "theta": 0.25,
+    "nu": 4,
+    "n": 800,
+    "burn": 500
+  },
+  "seed": 20261019,
+  "replications": 200,
+  "theoretical_mean": 39.999999999999964,
+  "theoretical_variance": 15.769230769230765,
+  "sample_mean": 40.344416118403544,
+  "sample_variance": 21.793432230857277,
+  "original_exercise_burn_in": 50,
+  "public_revision": "Uses 500 burn-in observations; MATLAB example retains the documented 50-observation setting.",
+  "innovation_scaling": "Student-t rescaled to unit variance; nu=4 has no finite fourth moment.",
+  "matlab_execution": "Not run; MATLAB/Octave is unavailable.",
+  "provenance": "New October 2026 reconstruction; original 2024 local files were not recovered."
+}

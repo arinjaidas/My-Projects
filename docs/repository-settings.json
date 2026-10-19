@@ -1,0 +1,129 @@
+{
+  "owner": "arinjaidas",
+  "visibility": "public",
+  "repository_creation_status": "Standalone packages prepared; My-Projects is the current canonical public location.",
+  "repositories": [
+    {
+      "name": "gold-vs-equities-india",
+      "description": "INR-based asset comparison, drawdowns, rolling returns and gold-equity allocation analysis with reproducible synthetic examples.",
+      "topics": [
+        "python",
+        "finance",
+        "asset-allocation",
+        "portfolio-analysis",
+        "india"
+      ],
+      "public_edition": "Reconstructed Python implementation with synthetic demonstration data and outputs."
+    },
+    {
+      "name": "econometrics-research-toolkit",
+      "description": "Reusable OLS specification comparisons, HC3 inference, VIF diagnostics and research reporting, demonstrated on synthetic data.",
+      "topics": [
+        "python",
+        "econometrics",
+        "statistics",
+        "ols",
+        "reproducible-research"
+      ],
+      "public_edition": "New public reconstruction using synthetic data; institutional research records and unpublished findings excluded."
+    },
+    {
+      "name": "derivatives-and-portfolio-risk-lab",
+      "description": "European option pricing, implied volatility, numerical valuation and hedging payoffs with independently checked illustrative scenarios.",
+      "topics": [
+        "python",
+        "quantitative-finance",
+        "options-pricing",
+        "risk-management",
+        "monte-carlo"
+      ],
+      "public_edition": "New reconstruction of the core valuation and payoff methods using illustrative inputs."
+    },
+    {
+      "name": "digital-payments-choice-experiment",
+      "description": "Synthetic demonstration of payment defaults, linear probability models, logistic regression and average discrete changes.",
+      "topics": [
+        "python",
+        "behavioural-economics",
+        "digital-payments",
+        "logistic-regression",
+        "synthetic-data"
+      ],
+      "public_edition": "New synthetic analytical demonstration; original scripts, participant records and study estimates excluded."
+    },
+    {
+      "name": "bharat-fx",
+      "description": "External-sector accounting, vintage selection, relative stress diagnostics and conditional reserve scenarios with a synthetic public demo.",
+      "topics": [
+        "python",
+        "macroeconomics",
+        "balance-of-payments",
+        "monte-carlo",
+        "india"
+      ],
+      "public_edition": "New runnable synthetic methods demonstration and detailed research-scope documentation. Original archive remains separate."
+    },
+    {
+      "name": "india-external-sector-forecasting",
+      "description": "Component-coherent current-account and reserve-flow forecasts with seasonal-naive, AR1 and ridge-VAR comparisons on synthetic data.",
+      "topics": [
+        "python",
+        "forecasting",
+        "time-series",
+        "balance-of-payments",
+        "india"
+      ],
+      "public_edition": "New synthetic forecasting demonstration, distinct from the original MAAKRO code, data and reports."
+    },
+    {
+      "name": "arma-student-t-simulation",
+      "description": "ARMA(1,1) simulation with variance-normalised Student-t shocks, analytical moments, Monte Carlo diagnostics and MATLAB companion scripts.",
+      "topics": [
+        "python",
+        "matlab",
+        "time-series",
+        "arma",
+        "monte-carlo"
+      ],
+      "public_edition": "New executable Python reference and reconstructed MATLAB companion scripts. Original local source files were not recovered."
+    },
+    {
+      "name": "lstm-time-series-lab",
+      "description": "A NumPy LSTM with checked backpropagation, chronological validation, simple forecasting baselines and a synthetic cost-aware trading illustration.",
+      "topics": [
+        "python",
+        "numpy",
+        "lstm",
+        "time-series",
+        "machine-learning"
+      ],
+      "public_edition": "New NumPy implementation with synthetic returns, verified gradients, chronological splits and benchmark reporting."
+    },
+    {
+      "name": "behavioural-recessions-review",
+      "description": "Research overview of household saving, consumption and financial risk-taking during recessions, with comparative case-study design.",
+      "topics": [
+        "economics",
+        "behavioural-economics",
+        "household-finance",
+        "literature-review",
+        "python"
+      ],
+      "public_edition": "Research overview; full manuscript and appendix materials prepared separately."
+    }
+  ],
+  "profile": {
+    "repository": "arinjaidas",
+    "name": "Arinjai Das",
+    "bio": "MA Economics at GIPE | Python, econometrics and financial research | Macroeconomics, behavioural economics and reproducible analytical workflows.",
+    "website": "https://github.com/arinjaidas/My-Projects",
+    "recommended_pins": [
+      "bharat-fx",
+      "india-external-sector-forecasting",
+      "econometrics-research-toolkit",
+      "gold-vs-equities-india",
+      "derivatives-and-portfolio-risk-lab",
+      "digital-payments-choice-experiment"
+    ]
+  }
+}

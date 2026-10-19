@@ -1,17 +1,9 @@
 # Public release scope
 
-## Executable public editions
+Nine project editions are prepared here: eight analytical/model implementations with synthetic or illustrative examples, and one narrative-review research overview. The complete review manuscript and appendix package remain separate.
 
-- **Gold versus Equities in India:** reconstructed implementation and synthetic outputs.
-- **Derivatives and Portfolio Risk Lab:** reconstructed implementation and illustrative scenarios.
-- **Econometrics Research Toolkit:** reconstructed implementation and synthetic data.
-- **Digital Payments and Default Choice:** newly implemented synthetic demonstration.
+The eight executable projects include code, numerical outputs, plots, walkthrough notebooks, documentation, attribution and verification records. The ninth project is an overview. GitHub Actions configurations are included in the standalone packages. Hosted CI success is reported only after an actual hosted run can be verified.
 
-## Research overviews
+Original BHARAT-FX and MAAKRO research archives and original payment-study scripts/results remain outside this release. Participant-level survey records and institutional microdata are excluded as well.
 
-- **BHARAT-FX:** overview of the macroeconomic framework and the limits of local archive verification.
-- **India External-Sector Forecasting:** overview of the research, contribution and local numerical reproduction.
-
-Original BHARAT-FX and external-sector forecasting archives, original payment-study scripts and historical study results are outside this public edition. Participant-level survey records and institutional microdata are also excluded.
-
-The public reconstructions and demonstrations were developed with ChatGPT assistance. They preserve the distinction between individual portfolio work, collaborative academic research and newly implemented examples.
+My-Projects is the current portfolio hub. Each project also has a prepared standalone repository layout. The profile README remains draft profile material until it is installed in the account's dedicated profile repository.

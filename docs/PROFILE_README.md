@@ -1,32 +1,34 @@
-![Arinjai Das | Economics, Econometrics and Financial Research](https://github.com/arinjaidas/My-Projects/raw/main/assets/banner.svg)
+![Arinjai Das | Economics Econometrics and Financial Research](https://github.com/arinjaidas/My-Projects/raw/main/assets/banner.svg)
 
-I build analytical workflows that connect economic questions with transparent models and interpretable results. My work focuses on **applied econometrics, macroeconomic research, financial risk and behavioural economics**.
+I build reproducible analytical workflows for economic and financial questions. My interests span **applied econometrics, macroeconomic research, household behaviour and financial risk**.
 
-I am pursuing an **MA in Economics at the Gokhale Institute of Politics and Economics, Pune**. My earlier research experience includes economic history at the **University of Tübingen**.
+I am pursuing an **MA in Economics at GIPE, Pune**, and previously supported economic-history research at the **University of Tübingen**. I hold a **BA (Hons.) in Economics from the University of Delhi**.
 
-### Selected analytical work
+### Selected work
 
-| Project | Focus | Explore |
-| --- | --- | --- |
-| **Gold versus Equities in India** | INR-consistent returns, drawdowns, diversification and allocation choices | [Code and synthetic results](https://github.com/arinjaidas/My-Projects/tree/main/projects/gold-vs-equities-india) |
-| **Econometrics Research Toolkit** | OLS specification comparisons, HC3 inference, diagnostics and reporting | [Code and synthetic results](https://github.com/arinjaidas/My-Projects/tree/main/projects/econometrics-research-toolkit) |
-| **Derivatives and Portfolio Risk Lab** | Option valuation, implied volatility and hedging payoffs | [Code and illustrative scenarios](https://github.com/arinjaidas/My-Projects/tree/main/projects/derivatives-and-portfolio-risk-lab) |
-| **Digital Payments and Default Choice** | Behavioural analysis with linear probability and logit models | [Synthetic demonstration](https://github.com/arinjaidas/My-Projects/tree/main/projects/digital-payments-choice-experiment) |
+| Project | What you can explore |
+| --- | --- |
+| [Gold versus Equities in India](https://github.com/arinjaidas/My-Projects/tree/main/projects/gold-vs-equities-india) | Currency-consistent asset comparison and allocation analysis |
+| [Econometrics Research Toolkit](https://github.com/arinjaidas/My-Projects/tree/main/projects/econometrics-research-toolkit) | Specification comparisons diagnostics and reproducible reporting |
+| [Derivatives and Portfolio Risk Lab](https://github.com/arinjaidas/My-Projects/tree/main/projects/derivatives-and-portfolio-risk-lab) | Option valuation numerical pricing and hedging payoffs |
+| [Digital Payments and Default Choice](https://github.com/arinjaidas/My-Projects/tree/main/projects/digital-payments-choice-experiment) | Behavioural economics of payment defaults and switching effort |
+| [BHARAT-FX](https://github.com/arinjaidas/My-Projects/tree/main/projects/bharat-fx) | External sustainability INR stress and conditional reserve scenarios |
+| [India External-Sector Forecasting](https://github.com/arinjaidas/My-Projects/tree/main/projects/india-external-sector-forecasting) | Accounting-coherent forecasts and chronological benchmark evaluation |
+| [ARMA Simulation with Student-t Innovations](https://github.com/arinjaidas/My-Projects/tree/main/projects/arma-student-t-simulation) | Persistence heavy tails theoretical moments and Monte Carlo diagnostics |
+| [LSTM Time-Series and Trading Workflow](https://github.com/arinjaidas/My-Projects/tree/main/projects/lstm-time-series-lab) | NumPy sequence modelling chronological evaluation and cost-aware simulation |
+| [Behavioural Responses to Economic Recessions](https://github.com/arinjaidas/My-Projects/tree/main/projects/behavioural-recessions-review) | Saving consumption risk-taking and household constraints |
 
-The first three projects are public reconstructions of documented earlier work. The payment-choice project is a new synthetic demonstration. Together, these public implementations passed **19 local functional checks** and four complete demonstration runs.
-
-### Macroeconomic research
-
-- [**BHARAT-FX**](https://github.com/arinjaidas/My-Projects/tree/main/projects/bharat-fx): external sustainability, capital-flow composition and INR stress.
-- [**India External-Sector Forecasting**](https://github.com/arinjaidas/My-Projects/tree/main/projects/india-external-sector-forecasting): current-account composition, financing reliability, reserves and accounting-coherent forecasts.
-
-These are **collaborative research overviews**. The original research code and datasets are not part of the public release.
+The portfolio includes **eight analytical/model demonstrations** and a **narrative-review research overview**. Public verification covers **57 functional checks** and **eight complete public example runs**.
 
 ### Methods and tools
 
 **Python** · pandas · NumPy · SciPy · statsmodels · Matplotlib  
 **R** · **Stata** · **MATLAB** · **Excel**
 
-I care about clear data definitions, explicit assumptions, benchmark comparisons and reproducible outputs. I distinguish exploratory models from predictive evidence and preserve attribution for collaborative research.
+My work includes OLS and discrete-choice models, time-series benchmarks, accounting-coherent forecasting, option valuation, Monte Carlo simulation and sequence modelling. I care about explicit assumptions, clear data definitions, credible comparisons and research attribution.
 
-[Browse the portfolio](https://github.com/arinjaidas/My-Projects) · [Read the verification notes](https://github.com/arinjaidas/My-Projects/blob/main/docs/VERIFICATION.md)
+### How to read the portfolio
+
+Code reconstructions and synthetic examples are labelled. The review retains archived statistical vintages. Original collaborative macroeconomic and payment-study archives are separate from the public implementations. Each project explains its scope, contribution and limits of interpretation.
+
+[Results gallery](https://github.com/arinjaidas/My-Projects/blob/main/docs/RESULTS_GALLERY.md) · [Verification](https://github.com/arinjaidas/My-Projects/blob/main/docs/VERIFICATION.md) · [Complete catalogue](https://github.com/arinjaidas/My-Projects/blob/main/docs/PROJECT_CATALOGUE.md)

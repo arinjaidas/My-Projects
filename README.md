@@ -1,36 +1,42 @@
-![Arinjai Das | Economics, Econometrics and Financial Research](assets/banner.svg)
+![Arinjai Das | Economics Econometrics and Financial Research](assets/banner.svg)
 
-# Research and analytical projects
+# Economics and quantitative research portfolio
 
-I build analytical workflows that connect economic questions with transparent models and interpretable results. My interests span applied econometrics, India's external sector, behavioural economics and financial risk.
+I build analytical workflows that connect economic questions with transparent models and interpretable results. My interests include applied econometrics, India's external sector, household behaviour and financial risk.
 
-I am pursuing an MA in Economics at the **Gokhale Institute of Politics and Economics, Pune**, and previously supported economic-history research at the **University of Tübingen**.
+I am pursuing an **MA in Economics at the Gokhale Institute of Politics and Economics, Pune**, with earlier economic-history research experience at the **University of Tübingen**.
 
-## Runnable projects
+**9 project editions · 57 functional checks · 8 complete public example runs · 8 walkthrough notebooks**
 
-| Project | What you can explore | Public edition |
+## Explore the projects
+
+| Project | Focus | Local checks |
 | --- | --- | --- |
-| [Gold versus Equities in India](projects/gold-vs-equities-india/) | INR-consistent asset comparison, drawdowns, rolling returns and allocation choices | Reconstructed Python workflow, synthetic outputs, **5 checks** |
-| [Econometrics Research Toolkit](projects/econometrics-research-toolkit/) | Comparable OLS specifications, HC3 inference, VIF and automated reporting | Reconstructed Python workflow, synthetic data, **4 checks** |
-| [Derivatives and Portfolio Risk Lab](projects/derivatives-and-portfolio-risk-lab/) | Option valuation, implied volatility, numerical pricing and hedging payoffs | Reconstructed Python workflow, illustrative scenarios, **7 checks** |
-| [Digital Payments and Default Choice](projects/digital-payments-choice-experiment/) | Payment-choice shares, linear probability models, logit and discrete changes | New synthetic demonstration, **3 checks** |
+| [Gold versus Equities in India](projects/gold-vs-equities-india/) | Currency-consistent asset comparison and allocation analysis | 5 |
+| [Econometrics Research Toolkit](projects/econometrics-research-toolkit/) | Specification comparisons diagnostics and reproducible reporting | 5 |
+| [Derivatives and Portfolio Risk Lab](projects/derivatives-and-portfolio-risk-lab/) | Option valuation numerical pricing and hedging payoffs | 8 |
+| [Digital Payments and Default Choice](projects/digital-payments-choice-experiment/) | Behavioural economics of payment defaults and switching effort | 3 |
+| [BHARAT-FX](projects/bharat-fx/) | External sustainability INR stress and conditional reserve scenarios | 10 |
+| [India External-Sector Forecasting](projects/india-external-sector-forecasting/) | Accounting-coherent forecasts and chronological benchmark evaluation | 10 |
+| [ARMA Simulation with Student-t Innovations](projects/arma-student-t-simulation/) | Persistence heavy tails theoretical moments and Monte Carlo diagnostics | 8 |
+| [LSTM Time-Series and Trading Workflow](projects/lstm-time-series-lab/) | NumPy sequence modelling chronological evaluation and cost-aware simulation | 8 |
+| [Behavioural Responses to Economic Recessions](projects/behavioural-recessions-review/) | Saving consumption risk-taking and household constraints | Appendix checks |
 
-Each project includes an explanation of the question, executable code, installation and run instructions, example output and attribution. All **19 functional checks** passed locally, together with four complete demonstration runs.
+Eight projects contain executable analytical/model demonstrations with synthetic or illustrative data. The behavioural-recession project provides a research overview. Its complete manuscript and reproduction package are prepared separately. Each executable project has methods, data definitions, results, provenance, reproducibility notes and a roadmap. The review overview has its research design and selected source links.
 
-## Macroeconomic research
+[View the results gallery](docs/RESULTS_GALLERY.md) · [Browse the complete project catalogue](docs/PROJECT_CATALOGUE.md) · [Read the verification record](docs/VERIFICATION.md)
 
-| Project | Research focus | Available here |
-| --- | --- | --- |
-| [BHARAT-FX](projects/bharat-fx/) | External sustainability, capital-flow composition and INR stress | Research overview |
-| [India External-Sector Forecasting](projects/india-external-sector-forecasting/) | Current-account composition, financing reliability, reserves and accounting-coherent forecasts | Research overview |
+## Research approach
 
-These two pages describe larger collaborative research projects. Their original code archives, source datasets and reports are not included in this public edition.
+I make accounting and measurement conventions explicit, compare complex methods with transparent benchmarks and distinguish descriptive fit from predictive or causal evidence. Collaborative research receives explicit credit.
 
-## Tools and research practice
-
-**Python** · pandas · NumPy · SciPy · statsmodels · Matplotlib  
+**Core tools:** Python · pandas · NumPy · SciPy · statsmodels · Matplotlib  
 **Additional tools:** R · Stata · MATLAB · Excel
 
-I make assumptions explicit, compare methods with appropriate benchmarks, preserve research attribution and distinguish illustrative results from empirical findings.
+The public editions distinguish recovered written work, reconstructed code and new synthetic implementations. The larger original BHARAT-FX and MAAKRO archives and original payment-study materials remain outside this release. Read [provenance](docs/PROVENANCE.md) and [release scope](docs/PUBLICATION_STATUS.md) for the details.
 
-The three reconstructed projects were rebuilt in October 2026 from documented earlier work. All bundled demonstration data and outputs are synthetic or illustrative. See [provenance](docs/PROVENANCE.md), [verification](docs/VERIFICATION.md) and [release scope](docs/PUBLICATION_STATUS.md).
+## Professional profile material
+
+[Profile README preview](docs/PROFILE_README.md) · [LinkedIn Indeed and CV project descriptions](docs/CAREER_WRITEUPS.md) · [Prepared profile settings](docs/PROFILE_SETTINGS.md)
+
+The current project links resolve to this portfolio hub. Each project is also packaged with a standalone repository layout.

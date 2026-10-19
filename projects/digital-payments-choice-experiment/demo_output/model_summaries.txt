@@ -4,7 +4,7 @@ Dep. Variable:              UPIChoice   R-squared:                       0.138
 Model:                            OLS   Adj. R-squared:                  0.133
 Method:                 Least Squares   F-statistic:                     37.35
 Date:                Mon, 19 Oct 2026   Prob (F-statistic):           1.19e-28
-Time:                        09:53:06   Log-Likelihood:                -515.81
+Time:                        11:06:34   Log-Likelihood:                -515.81
 No. Observations:                 800   AIC:                             1042.
 Df Residuals:                     795   BIC:                             1065.
 Df Model:                           4                                         
@@ -33,7 +33,7 @@ Dep. Variable:              UPIChoice   No. Observations:                  800
 Model:                          Logit   Df Residuals:                      795
 Method:                           MLE   Df Model:                            4
 Date:                Mon, 19 Oct 2026   Pseudo R-squ.:                  0.1069
-Time:                        09:53:06   Log-Likelihood:                -490.31
+Time:                        11:06:34   Log-Likelihood:                -490.31
 converged:                       True   LL-Null:                       -548.98
 Covariance Type:                  HC3   LLR p-value:                 1.966e-24
 ====================================================================================

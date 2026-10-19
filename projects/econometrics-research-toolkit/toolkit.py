@@ -5,6 +5,7 @@ Specification comparisons use one common complete-case sample per outcome.
 """
 from pathlib import Path
 from itertools import combinations
+from math import comb
 import argparse
 import json
 import numpy as np
@@ -30,7 +31,9 @@ def prepare(frame, outcome, base, controls):
 
 def compare_models(frame, outcome, base, controls, max_controls=3, max_models=256):
     if not base: raise ValueError('Supply at least one base predictor.')
-    if max_controls < 0 or max_models < 1: raise ValueError('Invalid search limits.')
+    if not isinstance(max_controls, int) or not isinstance(max_models, int) or max_controls < 0 or max_models < 1: raise ValueError('Invalid search limits.')
+    model_count = sum(comb(len(controls), k) for k in range(min(max_controls, len(controls)) + 1))
+    if model_count > max_models: raise ValueError('Search exceeds max_models; reduce controls or max_controls.')
     data = prepare(frame,outcome,base,controls)
     specs = [list(base)+list(extra) for k in range(min(max_controls,len(controls))+1) for extra in combinations(controls,k)]
     if len(specs)>max_models: raise ValueError('Search exceeds max_models; reduce controls or max_controls.')
