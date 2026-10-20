@@ -2,7 +2,7 @@
 
 ## LinkedIn headline
 
-MA Economics, GIPE | Applied Econometrics, Python & Financial Research | Macroeconomics and Behavioural Economics
+MA Economics Student, GIPE | Applied Econometrics, Python & Financial Research | Macroeconomics and Behavioural Economics
 
 ## LinkedIn About
 
