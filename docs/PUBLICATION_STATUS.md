@@ -2,12 +2,14 @@
 
 Updated 20 October 2026.
 
-Nine project editions are public: eight analytical/model implementations with synthetic or illustrative examples, and one complete narrative-review draft with archived published aggregate observations and executable figure reproduction.
+Nine separate project repository pages are public, and the introduction, banner, name, bio, website and six pins have been installed on the GitHub profile.
 
-The recession review contains its complete Markdown manuscript, 35 references, six figures, four appendix datasets, a Python reproduction script and a walkthrough notebook. It is a research draft and does not report new survey collection or original causal estimates. Its data retain the manuscript's historical vintages and distinct measurement definitions.
+Eight project repositories contain executable analytical/model examples with synthetic or illustrative data. Each passed its own hosted functional checks and complete example run. The eight implementations contain 57 functional checks in total.
 
-The eight analytical/model implementations passed 57 functional checks and complete example runs. The review appendix also reproduced successfully, with separate arithmetic and range checks. The previous eight-project hosted CI passed; the extended nine-project workflow must complete before a nine-job hosted success is claimed.
+The recession-review repository is an index. Its complete Markdown manuscript, 35 references, six figures, four archived aggregate datasets, figure-reproduction script and notebook remain public under projects/behavioural-recessions-review in this hub. The hosted nine-project portfolio run reproduced the appendix successfully. The complete asset mirror has not been copied into the separate review repository.
 
-Original BHARAT-FX and MAAKRO research archives and original payment-study scripts/results are being prepared for the next release. Original participant-level survey records and institutional microdata are excluded.
+The payment-study repository includes three recovered original scripts and eight historical aggregate result tables. Its participant-level source data are absent, and its original empirical pipeline has not been rerun for this publication. Its independently implemented synthetic example is executable and tested.
 
-My-Projects is the current portfolio hub. Separate repositories and the actual profile README, bio and pins remain unfinished. LinkedIn and Indeed have not been edited. Those account changes require their own verified completion.
+The larger original BHARAT-FX and MAAKRO source/data/report bundles remain separate from the public editions. No participant-level study records or institutional microdata are distributed.
+
+Individual repositories are the current public project editions. Retained directories in this hub preserve the earlier portfolio snapshot and the current full review package.

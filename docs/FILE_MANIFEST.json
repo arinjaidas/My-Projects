@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3807,
-      "sha256": "7999349c3f783b825a3592814c1723cd791745e35974e4476a93baf7228b373a"
+      "bytes": 4118,
+      "sha256": "7ebf50838b5ff0ff16436ba9351faf490c03ecd2d0f071b8ef3474b31c3088dc"
     },
     {
       "path": "assets/banner.svg",
@@ -28,58 +28,68 @@
     },
     {
       "path": "docs/CAREER_WRITEUPS.md",
-      "bytes": 11447,
-      "sha256": "6b0ff01d78335d6741fd036a10dfefe345c5ffeda38185174d4ad12fd24b5481"
+      "bytes": 7574,
+      "sha256": "031bb6c1ac8ceafaa104cc83d0c8481b05a2c8a43d9ca95c16d82f9df217469c"
+    },
+    {
+      "path": "docs/PROFESSIONAL_PROFILE.md",
+      "bytes": 2385,
+      "sha256": "f320c541af13ba0c11bac8959e277dac7efdd0bb522aea3ca6ed3850291af9fc"
     },
     {
       "path": "docs/PROFILE_README.md",
-      "bytes": 3661,
-      "sha256": "638a6a8e49d5cf7e5806b2d23dc0171c02560e24bceb1a4e3ff039cf437d7420"
+      "bytes": 3482,
+      "sha256": "7bfadb5639974bab59aa7162037b78dd05655ae4da31d9d680155ac2b01a0c13"
     },
     {
       "path": "docs/PROFILE_SETTINGS.md",
-      "bytes": 1127,
-      "sha256": "987442ab05c4889c02f020c509e2c9d303ced2400437d1aa0a1bd06452a0a413"
+      "bytes": 821,
+      "sha256": "b78066a17a101d270f47e0a599e0c2a7d85c986239f71cc85908e67e81e824e5"
     },
     {
       "path": "docs/PROJECT_CATALOGUE.md",
-      "bytes": 5404,
-      "sha256": "df5045f396bee1428aa91cc3c236168d0555ef5f57e37d15ccaf134a9a178b6b"
+      "bytes": 5584,
+      "sha256": "07ebbfb9a24fda95eab2d03b32b1e3633b68581d5e4a3aadbbcb9a3a5c331900"
     },
     {
       "path": "docs/PROVENANCE.md",
-      "bytes": 2278,
-      "sha256": "5427bdea96a81dc0b35b9d157419204d34da2fd1a3677c25740dab45078eca96"
+      "bytes": 2286,
+      "sha256": "b998f2c7f734d8d1834e83a2b8c08b85ac1a05135783d08b96aa8421e0848ee7"
     },
     {
       "path": "docs/PUBLICATION_STATUS.md",
-      "bytes": 1426,
-      "sha256": "3e4382e6317c0e3a332edfd9b51f1c770ae53771b3fa4133b9c34e16e03c09e4"
+      "bytes": 1546,
+      "sha256": "d2a0d058c8b88aba6c0bbabbd0cb8faa5ece2e7aa87b4513660282da7d774e21"
     },
     {
       "path": "docs/RESULTS_GALLERY.md",
-      "bytes": 2637,
-      "sha256": "a6f810eef0bfd9f56947915a6bdff785da6a647c87cfd5faa472d5cd26bd7e8c"
+      "bytes": 2790,
+      "sha256": "b041945def22bd7fcee978e3bdd681888216d99c40c502da1b7b2eb7bc67aad3"
     },
     {
       "path": "docs/SEPARATE_REPOSITORIES.md",
-      "bytes": 1856,
-      "sha256": "6f9ba123876ae07bc24e74793cc29f20d91cce1cd1b6ef1003153d4e670f9c8d"
+      "bytes": 2074,
+      "sha256": "29624b31dea03482a214e5f5994d2b12526e59211af7d1add2716ebeef13f592"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 2527,
-      "sha256": "c4e221f65607987e08371ee1f4adec081ad3bd8a5053d0bba296ff2bb0d80100"
+      "bytes": 3130,
+      "sha256": "764efaa649577654072414e385c66917a1961732e505553e86b17ade8f8917d1"
     },
     {
       "path": "docs/release_verification.json",
-      "bytes": 3065,
-      "sha256": "16580e533a288a563e857d6b32d45f5b5c57c5ee2723583f97e653a7aa2b4c4c"
+      "bytes": 5910,
+      "sha256": "d2b289566b4e46a821406695562288aba394ce9fbc18ea1cc65518e099866738"
     },
     {
       "path": "docs/repository-settings.json",
-      "bytes": 5190,
-      "sha256": "88b619d4ac8400d8f313877a8eb9455ae711944e6bde455dd61bd781f1c4a89c"
+      "bytes": 5912,
+      "sha256": "963e6dfec3bd5ef553ba73c0b3d52886b48999159c902e62febb7c5aaeb3be26"
+    },
+    {
+      "path": "docs/standalone_verification.json",
+      "bytes": 2992,
+      "sha256": "646da0b95f267fb0d29f9e7174e0777d80b29a1410dacd364f38e17ff410c833"
     },
     {
       "path": "projects/arma-student-t-simulation/.gitattributes",

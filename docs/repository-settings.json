@@ -1,7 +1,7 @@
 {
   "owner": "arinjaidas",
   "visibility": "public",
-  "repository_creation_status": "Standalone packages prepared; My-Projects is the current canonical public location.",
+  "repository_creation_status": "Nine separate public project pages created and verified; eight executable standalone implementations and one review index.",
   "repositories": [
     {
       "name": "gold-vs-equities-india",
@@ -13,7 +13,8 @@
         "portfolio-analysis",
         "india"
       ],
-      "public_edition": "Reconstructed Python implementation with synthetic demonstration data and outputs."
+      "public_edition": "Reconstructed Python implementation with synthetic demonstration data and outputs.",
+      "url": "https://github.com/arinjaidas/gold-vs-equities-india"
     },
     {
       "name": "econometrics-research-toolkit",
@@ -25,7 +26,8 @@
         "ols",
         "reproducible-research"
       ],
-      "public_edition": "New public reconstruction using synthetic data; institutional research records and unpublished findings excluded."
+      "public_edition": "New public reconstruction using synthetic data; institutional research records and unpublished findings excluded.",
+      "url": "https://github.com/arinjaidas/econometrics-research-toolkit"
     },
     {
       "name": "derivatives-and-portfolio-risk-lab",
@@ -37,7 +39,8 @@
         "risk-management",
         "monte-carlo"
       ],
-      "public_edition": "New reconstruction of the core valuation and payoff methods using illustrative inputs."
+      "public_edition": "New reconstruction of the core valuation and payoff methods using illustrative inputs.",
+      "url": "https://github.com/arinjaidas/derivatives-and-portfolio-risk-lab"
     },
     {
       "name": "digital-payments-choice-experiment",
@@ -49,7 +52,8 @@
         "logistic-regression",
         "synthetic-data"
       ],
-      "public_edition": "New synthetic analytical demonstration; original scripts, participant records and study estimates excluded."
+      "public_edition": "Tested synthetic implementation plus three original scripts and eight historical aggregate result tables; participant inputs excluded.",
+      "url": "https://github.com/arinjaidas/digital-payments-choice-experiment"
     },
     {
       "name": "bharat-fx",
@@ -61,7 +65,8 @@
         "monte-carlo",
         "india"
       ],
-      "public_edition": "New runnable synthetic methods demonstration and detailed research-scope documentation. Original archive remains separate."
+      "public_edition": "New runnable synthetic methods demonstration and detailed research-scope documentation. Original archive remains separate.",
+      "url": "https://github.com/arinjaidas/bharat-fx"
     },
     {
       "name": "india-external-sector-forecasting",
@@ -73,7 +78,8 @@
         "balance-of-payments",
         "india"
       ],
-      "public_edition": "New synthetic forecasting demonstration, distinct from the original MAAKRO code, data and reports."
+      "public_edition": "New synthetic forecasting demonstration, distinct from the original MAAKRO code, data and reports.",
+      "url": "https://github.com/arinjaidas/india-external-sector-forecasting"
     },
     {
       "name": "arma-student-t-simulation",
@@ -85,7 +91,8 @@
         "arma",
         "monte-carlo"
       ],
-      "public_edition": "New executable Python reference and reconstructed MATLAB companion scripts. Original local source files were not recovered."
+      "public_edition": "New executable Python reference and reconstructed MATLAB companion scripts. Original local source files were not recovered.",
+      "url": "https://github.com/arinjaidas/arma-student-t-simulation"
     },
     {
       "name": "lstm-time-series-lab",
@@ -97,7 +104,8 @@
         "time-series",
         "machine-learning"
       ],
-      "public_edition": "New NumPy implementation with synthetic returns, verified gradients, chronological splits and benchmark reporting."
+      "public_edition": "New NumPy implementation with synthetic returns, verified gradients, chronological splits and benchmark reporting.",
+      "url": "https://github.com/arinjaidas/lstm-time-series-lab"
     },
     {
       "name": "behavioural-recessions-review",
@@ -109,7 +117,8 @@
         "literature-review",
         "python"
       ],
-      "public_edition": "Full narrative-review draft, 35 references, six figures, four archived aggregate datasets and Python figure reproduction."
+      "public_edition": "Research index linking the full public manuscript, figures and executable appendix in My-Projects.",
+      "url": "https://github.com/arinjaidas/behavioural-recessions-review"
     }
   ],
   "profile": {
@@ -124,6 +133,7 @@
       "gold-vs-equities-india",
       "derivatives-and-portfolio-risk-lab",
       "digital-payments-choice-experiment"
-    ]
+    ],
+    "applied": true
   }
 }

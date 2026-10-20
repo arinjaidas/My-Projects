@@ -1,17 +1,17 @@
-# Standalone repository layouts
+# Separate project repositories
 
-Nine project packages plus the profile README layout are prepared. Repository names, descriptions, topics and the draft profile settings are in [repository-settings.json](repository-settings.json).
+Nine public repository pages have been created and their published files verified. Eight contain runnable analytical implementations; the ninth is the review index linking the full paper and executable appendix in My-Projects.
 
-The working project links currently resolve to My-Projects. Each project directory is designed to function as a repository root, with its own documentation, assets and run instructions. Individual repository links should be introduced after their destinations exist and are verified.
+| Project | Focus | Functional checks |
+| --- | --- | --- |
+| [BHARAT-FX](https://github.com/arinjaidas/bharat-fx) | External-sector accounting, data vintages and conditional reserve scenarios | 10 |
+| [India External-Sector Forecasting](https://github.com/arinjaidas/india-external-sector-forecasting) | Coherent component forecasts and chronological benchmark evaluation | 10 |
+| [Econometrics Research Toolkit](https://github.com/arinjaidas/econometrics-research-toolkit) | Common-sample OLS comparisons, HC3 inference and VIF diagnostics | 5 |
+| [Gold versus Equities in India](https://github.com/arinjaidas/gold-vs-equities-india) | Currency-consistent asset comparison and allocation analysis | 5 |
+| [Derivatives and Portfolio Risk Lab](https://github.com/arinjaidas/derivatives-and-portfolio-risk-lab) | Option valuation, implied volatility and hedging payoffs | 8 |
+| [Digital Payments and Default Choice](https://github.com/arinjaidas/digital-payments-choice-experiment) | Payment defaults, discrete-choice models and original analysis archives | 3 |
+| [ARMA with Student-t Innovations](https://github.com/arinjaidas/arma-student-t-simulation) | Heavy tails, theoretical moments and Monte Carlo diagnostics | 8 |
+| [LSTM Time-Series Lab](https://github.com/arinjaidas/lstm-time-series-lab) | NumPy sequence modelling, verified gradients and cost-aware evaluation | 8 |
+| [Behavioural Responses to Recessions](https://github.com/arinjaidas/behavioural-recessions-review) | Research index linking the full public review and executable appendix | Appendix consistency |
 
-| Prepared repository | Public edition |
-| --- | --- |
-| gold-vs-equities-india | Reconstructed Python implementation with synthetic demonstration data and outputs. |
-| econometrics-research-toolkit | New public reconstruction using synthetic data; institutional research records and unpublished findings excluded. |
-| derivatives-and-portfolio-risk-lab | New reconstruction of the core valuation and payoff methods using illustrative inputs. |
-| digital-payments-choice-experiment | New synthetic analytical demonstration; original scripts, participant records and study estimates excluded. |
-| bharat-fx | New runnable synthetic methods demonstration and detailed research-scope documentation. Original archive remains separate. |
-| india-external-sector-forecasting | New synthetic forecasting demonstration, distinct from the original MAAKRO code, data and reports. |
-| arma-student-t-simulation | New executable Python reference and reconstructed MATLAB companion scripts. Original local source files were not recovered. |
-| lstm-time-series-lab | New NumPy implementation with synthetic returns, verified gradients, chronological splits and benchmark reporting. |
-| behavioural-recessions-review | Full narrative-review draft, 35 references, six figures, four archived aggregate datasets and executable Python figure reproduction. |
+The eight standalone analytical workflows passed hosted CI. The paper appendix passed the linked portfolio run. The full review asset mirror and original macroeconomic source/data bundles are not included in the separate repositories.

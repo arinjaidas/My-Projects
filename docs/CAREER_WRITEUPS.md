@@ -1,129 +1,129 @@
-# Project descriptions for LinkedIn Indeed and CVs
+# Project descriptions for LinkedIn, Indeed and CVs
 
-These descriptions match the public edition. Link to each standalone repository after it is created. The current live links point to the corresponding project page in My-Projects.
-
-## Gold versus Equities in India
-
-Current public link: [Gold versus Equities in India](https://github.com/arinjaidas/My-Projects/tree/main/projects/gold-vs-equities-india)
-
-**LinkedIn project description**
-
-INR-based asset comparison, drawdowns, rolling returns and gold-equity allocation analysis with reproducible synthetic examples. Arinjai Das developed the documented investment-analysis scope. The public implementation was reconstructed with ChatGPT assistance after the original local scripts could not be recovered. Reconstructed Python implementation with synthetic demonstration data and outputs.
-
-**Indeed or CV description**
-
-How do growth, volatility, downside risk and diversification change when gold and equities are compared from an Indian investor's currency perspective? The public edition demonstrates python, asset allocation, financial data, risk metrics, currency conversion, reproducible analysis. Reconstructed Python implementation with synthetic demonstration data and outputs.
-
-**Skills:** Python, asset allocation, financial data, risk metrics, currency conversion, reproducible analysis.
-
-## Econometrics Research Toolkit
-
-Current public link: [Econometrics Research Toolkit](https://github.com/arinjaidas/My-Projects/tree/main/projects/econometrics-research-toolkit)
-
-**LinkedIn project description**
-
-Reusable OLS specification comparisons, HC3 inference, VIF diagnostics and research reporting, demonstrated on synthetic data. Arinjai Das supported data preparation, applied econometrics, specification comparisons and reporting in the original research setting. The public reconstruction demonstrates reusable analytical tooling and does not claim sole ownership of the collaborative empirical research. New public reconstruction using synthetic data; institutional research records and unpublished findings excluded.
-
-**Indeed or CV description**
-
-How can alternative regression specifications be compared transparently while keeping their estimation sample and reporting conventions consistent? The public edition demonstrates python, econometrics, ols, hc3 standard errors, vif, specification analysis, research automation. New public reconstruction using synthetic data; institutional research records and unpublished findings excluded.
-
-**Skills:** Python, econometrics, OLS, HC3 standard errors, VIF, specification analysis, research automation.
-
-## Derivatives and Portfolio Risk Lab
-
-Current public link: [Derivatives and Portfolio Risk Lab](https://github.com/arinjaidas/My-Projects/tree/main/projects/derivatives-and-portfolio-risk-lab)
-
-**LinkedIn project description**
-
-European option pricing, implied volatility, numerical valuation and hedging payoffs with independently checked illustrative scenarios. Arinjai Das worked on the documented quantitative-finance coursework. The public reconstruction implements and checks the core methods; it is not a recovered copy of the earlier multi-stock scripts or an investment track record. New reconstruction of the core valuation and payoff methods using illustrative inputs.
-
-**Indeed or CV description**
-
-How do analytical and numerical option-pricing methods compare, and how do common hedging structures change terminal payoffs? The public edition demonstrates python, quantitative finance, option pricing, implied volatility, monte carlo, hedging, numerical methods. New reconstruction of the core valuation and payoff methods using illustrative inputs.
-
-**Skills:** Python, quantitative finance, option pricing, implied volatility, Monte Carlo, hedging, numerical methods.
-
-## Digital Payments and Default Choice
-
-Current public link: [Digital Payments and Default Choice](https://github.com/arinjaidas/My-Projects/tree/main/projects/digital-payments-choice-experiment)
-
-**LinkedIn project description**
-
-Synthetic demonstration of payment defaults, linear probability models, logistic regression and average discrete changes. Arinjai Das contributed to quantitative analysis and interpretation within the group. The academic paper lists Aayushika Bhardwaj, Shreya Bhardwaj, Adhya Pande, Kunal Sachdeva, Bipasha and Arinjai Das. The public synthetic implementation was prepared with ChatGPT assistance. New synthetic analytical demonstration; original scripts, participant records and study estimates excluded.
-
-**Indeed or CV description**
-
-How does a preselected payment option relate to payment choice after accounting for prior use, switching effort and reliance on the platform? The public edition demonstrates python, behavioural economics, survey analysis, linear probability models, logistic regression, marginal effects. New synthetic analytical demonstration; original scripts, participant records and study estimates excluded.
-
-**Skills:** Python, behavioural economics, survey analysis, linear probability models, logistic regression, marginal effects.
+These descriptions match the current public editions. Reconstructed examples, synthetic data, collaborative contributions and source limits are explained in each repository.
 
 ## BHARAT-FX
 
-Current public link: [BHARAT-FX](https://github.com/arinjaidas/My-Projects/tree/main/projects/bharat-fx)
+[Project repository](https://github.com/arinjaidas/bharat-fx)
 
 **LinkedIn project description**
 
-External-sector accounting, vintage selection, relative stress diagnostics and conditional reserve scenarios with a synthetic public demo. Portfolio owner: Arinjai Das. Original research context: Group 5, MA Economics, GIPE. The public example was newly implemented with ChatGPT assistance and does not redistribute or certify the original 00-19 research pipeline. New runnable synthetic methods demonstration and detailed research-scope documentation. Original archive remains separate.
+Implemented a public synthetic demonstration of external-sector accounting, release-vintage selection, relative stress diagnostics and conditional reserve scenarios. Ten functional checks cover input validation, accounting and simulation behaviour. The broader GIPE Group 5 research framework is documented separately; its larger original source and empirical bundle is not part of the public implementation.
 
 **Indeed or CV description**
 
-How do current-account positions, financing composition and reserve buffers interact under external-sector stress? The public edition demonstrates python, macroeconomic accounting, balance of payments, data vintages, scenario simulation, external-sector research. New runnable synthetic methods demonstration and detailed research-scope documentation. Original archive remains separate.
+Built and verified a transparent macroeconomic methods example for current-account financing, reserve accounting, information vintages and conditional stress scenarios.
 
-**Skills:** Python, macroeconomic accounting, balance of payments, data vintages, scenario simulation, external-sector research.
+**Skills:** Python, macroeconomics, balance of payments, data vintages, scenario analysis.
 
 ## India External-Sector Forecasting
 
-Current public link: [India External-Sector Forecasting](https://github.com/arinjaidas/My-Projects/tree/main/projects/india-external-sector-forecasting)
+[Project repository](https://github.com/arinjaidas/india-external-sector-forecasting)
 
 **LinkedIn project description**
 
-Component-coherent current-account and reserve-flow forecasts with seasonal-naive, AR1 and ridge-VAR comparisons on synthetic data. Arinjai Das served as team lead and contributed to empirical work, ratios and reserves analysis, and project coordination. The original package separately passed 821 local numerical reproduction checks. The new public demonstration has its own code, data and checks. New synthetic forecasting demonstration, distinct from the original MAAKRO code, data and reports.
+Implemented component-coherent forecasting with seasonal-naive, component-AR1 and ridge-VAR comparisons on synthetic quarterly data. Model selection uses an early validation period and remains frozen for later evaluation. Ten functional checks verify chronology, benchmark comparisons and accounting reconciliation. The separate original MAAKRO empirical package remains outside this public edition.
 
 **Indeed or CV description**
 
-Can component-based forecasts preserve external-sector accounting identities while competing with transparent time-series benchmarks? The public edition demonstrates python, time-series forecasting, chronological validation, benchmarks, ridge var, accounting reconciliation. New synthetic forecasting demonstration, distinct from the original MAAKRO code, data and reports.
+Developed a reproducible forecasting workflow with component aggregation, chronological validation, transparent benchmarks and explicit accounting identities.
 
-**Skills:** Python, time-series forecasting, chronological validation, benchmarks, ridge VAR, accounting reconciliation.
+**Skills:** Python, time-series forecasting, validation, benchmarks, ridge VAR, macroeconomic accounting.
 
-## ARMA Simulation with Student-t Innovations
+## Econometrics Research Toolkit
 
-Current public link: [ARMA Simulation with Student-t Innovations](https://github.com/arinjaidas/My-Projects/tree/main/projects/arma-student-t-simulation)
+[Project repository](https://github.com/arinjaidas/econometrics-research-toolkit)
 
 **LinkedIn project description**
 
-ARMA(1,1) simulation with variance-normalised Student-t shocks, analytical moments, Monte Carlo diagnostics and MATLAB companion scripts. Arinjai Das developed the earlier simulation exercise through ChatGPT-assisted work. The October 2026 public reconstruction adds explicit innovation scaling, theoretical comparisons and numerical verification. Earlier execution is not inferred from the existence of drafted scripts. New executable Python reference and reconstructed MATLAB companion scripts. Original local source files were not recovered.
+Built reusable tools for common-sample OLS specification comparisons, HC3 inference, VIF diagnostics and bounded model-search reporting. The public reconstruction uses synthetic data and includes five functional checks. It draws on earlier economic-history research workflows at Tübingen; institutional records and unpublished findings are excluded.
 
 **Indeed or CV description**
 
-How do persistence and heavy-tailed innovations affect finite-sample behaviour in a stationary ARMA process? The public edition demonstrates python, matlab, arma, monte carlo, student-t distributions, time-series theory, numerical verification. New executable Python reference and reconstructed MATLAB companion scripts. Original local source files were not recovered.
+Developed reproducible regression-comparison tooling with consistent samples, robust inference, multicollinearity diagnostics and explicit handling of invalid specifications.
 
-**Skills:** Python, MATLAB, ARMA, Monte Carlo, Student-t distributions, time-series theory, numerical verification.
+**Skills:** Python, econometrics, OLS, HC3 inference, VIF, research automation.
 
-## LSTM Time-Series and Trading Workflow
+## Gold versus Equities in India
 
-Current public link: [LSTM Time-Series and Trading Workflow](https://github.com/arinjaidas/My-Projects/tree/main/projects/lstm-time-series-lab)
+[Project repository](https://github.com/arinjaidas/gold-vs-equities-india)
 
 **LinkedIn project description**
 
-A NumPy LSTM with checked backpropagation, chronological validation, simple forecasting baselines and a synthetic cost-aware trading illustration. The earlier ChatGPT work contained prediction and trading code. The October 2026 public reconstruction makes the model and evaluation inspectable without claiming recovered weights, prior successful trading or historical investment results. New NumPy implementation with synthetic returns, verified gradients, chronological splits and benchmark reporting.
+Implemented a currency-consistent Python workflow for comparing gold and equities from an Indian investor perspective. The public example covers INR conversion, calendar growth, drawdowns, risk measures, rolling windows and allocation analysis, using reproducible synthetic data. Five functional checks cover the main calculations.
 
 **Indeed or CV description**
 
-How can a sequence model be trained and evaluated without letting future observations leak into features, scaling or model selection? The public edition demonstrates python, numpy, lstm, backpropagation, machine learning, temporal validation, backtesting, transaction costs. New NumPy implementation with synthetic returns, verified gradients, chronological splits and benchmark reporting.
+Built a reproducible asset-comparison workflow with currency conversion, downside-risk analysis and gold-equity allocation comparisons. Public examples are synthetic.
 
-**Skills:** Python, NumPy, LSTM, backpropagation, machine learning, temporal validation, backtesting, transaction costs.
+**Skills:** Python, pandas, financial analysis, asset allocation, risk metrics.
 
-## Behavioural Responses to Economic Recessions
+## Derivatives and Portfolio Risk Lab
 
-Current public link: [Behavioural Responses to Economic Recessions](https://github.com/arinjaidas/My-Projects/tree/main/projects/behavioural-recessions-review)
+[Project repository](https://github.com/arinjaidas/derivatives-and-portfolio-risk-lab)
 
 **LinkedIn project description**
 
-Narrative research review of saving, consumption and risk-taking across recessions, with the complete draft and reproducible descriptive figures. Portfolio owner: Arinjai Das. Generative AI assisted with restructuring, drafting, source checking and document preparation. The source manuscript declares that it collected no new survey data and estimated no new regressions. Full narrative-review draft, 35 references, six figures, four archived aggregate datasets and executable Python figure reproduction.
+Implemented analytical and numerical option valuation, implied-volatility recovery and hedging-payoff comparisons in Python. Eight functional checks compare independent methods and validate inputs. Illustrative inputs demonstrate Black-Scholes, CRR and Monte Carlo calculations; the project does not represent a trading track record.
 
 **Indeed or CV description**
 
-Why can stronger precautionary motives produce additional saving for some households and dissaving or essential-spending cuts for others? The public edition demonstrates literature review, behavioural economics, household finance, evidence synthesis, data definitions, python visualisation. Full narrative-review draft, 35 references, six figures, four archived aggregate datasets and executable Python figure reproduction.
+Built and checked option-pricing and payoff-analysis tools, including analytical valuation, numerical methods and implied-volatility recovery.
 
-**Skills:** Literature review, behavioural economics, household finance, evidence synthesis, data definitions, Python visualisation.
+**Skills:** Python, quantitative finance, option pricing, Monte Carlo, numerical methods.
+
+## Digital Payments and Default Choice
+
+[Project repository](https://github.com/arinjaidas/digital-payments-choice-experiment)
+
+**LinkedIn project description**
+
+GIPE Group 8 project on payment defaults and switching effort. The public repository includes a tested synthetic LPM/logit demonstration, three recovered original scripts and eight historical aggregate result tables. Participant-level study inputs are excluded, and the original empirical pipeline has not been rerun for publication. Collaborative contributors are credited in the repository.
+
+**Indeed or CV description**
+
+Contributed to group-study quantitative analysis and interpretation of digital-payment defaults; published reproducible synthetic examples alongside recovered scripts and aggregate summaries.
+
+**Skills:** Python, behavioural economics, linear probability models, logistic regression, marginal effects.
+
+## ARMA with Student-t Innovations
+
+[Project repository](https://github.com/arinjaidas/arma-student-t-simulation)
+
+**LinkedIn project description**
+
+Built an executable Python ARMA(1,1) simulation with variance-normalised Student-t innovations, analytical moment comparisons and Monte Carlo diagnostics. Eight functional checks include independent theoretical comparisons. Reconstructed MATLAB companion scripts are supplied as source and are clearly marked as unexecuted in this release.
+
+**Indeed or CV description**
+
+Implemented and checked a heavy-tailed time-series simulation, comparing finite-sample behaviour with theoretical moments and independent reference calculations.
+
+**Skills:** Python, time series, ARMA, Student-t distributions, Monte Carlo, MATLAB source.
+
+## LSTM Time-Series Lab
+
+[Project repository](https://github.com/arinjaidas/lstm-time-series-lab)
+
+**LinkedIn project description**
+
+Implemented a NumPy LSTM with backpropagation through time, Adam optimisation, gradient clipping and chronological early stopping. Eight functional checks include finite-difference gradient validation, train-only scaling and transaction-cost accounting. Synthetic return examples compare the sequence model with simple baselines; no historical alpha or live trading result is claimed.
+
+**Indeed or CV description**
+
+Built a transparent sequence-modelling workflow with verified gradients, temporal validation, simple forecasting benchmarks and a cost-aware synthetic trading illustration.
+
+**Skills:** Python, NumPy, LSTM, backpropagation, time-series validation, transaction costs.
+
+## Behavioural Responses to Recessions
+
+[Project repository](https://github.com/arinjaidas/behavioural-recessions-review)
+
+**LinkedIn project description**
+
+Prepared a narrative research review of household saving, consumption and financial risk-taking across the United States, Greece and India. The complete public draft retains 35 references, six figures and four archived aggregate datasets, with a verified Python appendix reproduction. The separate repository links to the full package in My-Projects. No new survey or original causal estimates are claimed.
+
+**Indeed or CV description**
+
+Synthesised household-finance theory and published recession evidence in a narrative review, preserving measurement differences and providing reproducible descriptive figures.
+
+**Skills:** Behavioural economics, literature review, household finance, evidence synthesis, Python visualisation.

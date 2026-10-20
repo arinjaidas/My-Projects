@@ -1,29 +1,26 @@
 # Verification
 
-Release date: 20 October 2026.
+Verified 20 October 2026.
 
-| Public edition | Functional checks | Complete example run |
+| Separate analytical project | Functional checks | Hosted example and checks |
 | --- | --- | --- |
-| Gold versus Equities in India | 5 | passed |
-| Econometrics Research Toolkit | 5 | passed |
-| Derivatives and Portfolio Risk Lab | 8 | passed |
-| Digital Payments and Default Choice | 3 | passed |
-| BHARAT-FX | 10 | passed |
-| India External-Sector Forecasting | 10 | passed |
-| ARMA Simulation with Student-t Innovations | 8 | passed |
-| LSTM Time-Series and Trading Workflow | 8 | passed |
-| Behavioural Responses to Economic Recessions | Separate appendix arithmetic and percentage bounds | passed |
+| [BHARAT-FX](https://github.com/arinjaidas/bharat-fx) | 10 | [passed](https://github.com/arinjaidas/bharat-fx/actions/runs/39382101501) |
+| [India External-Sector Forecasting](https://github.com/arinjaidas/india-external-sector-forecasting) | 10 | [passed](https://github.com/arinjaidas/india-external-sector-forecasting/actions/runs/39382232920) |
+| [Econometrics Research Toolkit](https://github.com/arinjaidas/econometrics-research-toolkit) | 5 | [passed](https://github.com/arinjaidas/econometrics-research-toolkit/actions/runs/39380706337) |
+| [Gold versus Equities in India](https://github.com/arinjaidas/gold-vs-equities-india) | 5 | [passed](https://github.com/arinjaidas/gold-vs-equities-india/actions/runs/39380667412) |
+| [Derivatives and Portfolio Risk Lab](https://github.com/arinjaidas/derivatives-and-portfolio-risk-lab) | 8 | [passed](https://github.com/arinjaidas/derivatives-and-portfolio-risk-lab/actions/runs/39380829351) |
+| [Digital Payments and Default Choice](https://github.com/arinjaidas/digital-payments-choice-experiment) | 3 | [passed](https://github.com/arinjaidas/digital-payments-choice-experiment/actions/runs/39380971553) |
+| [ARMA with Student-t Innovations](https://github.com/arinjaidas/arma-student-t-simulation) | 8 | [passed](https://github.com/arinjaidas/arma-student-t-simulation/actions/runs/39382453458) |
+| [LSTM Time-Series Lab](https://github.com/arinjaidas/lstm-time-series-lab) | 8 | [passed](https://github.com/arinjaidas/lstm-time-series-lab/actions/runs/39382707193) |
 
-**Total: 57 functional checks, 8 complete analytical/model examples and 1 full review-appendix reproduction.**
+**Total: 57 functional checks and eight complete standalone analytical examples.**
 
-The review checks two independently calculated consumption indices against the archived reported indices and verifies the bounds of the Greek survey percentages. Those assertions are not included in the 57 unit-check count. Nine public walkthrough notebooks read verified result files; their cells were executed locally with Python and retain that output. A separate Jupyter-kernel execution is not claimed.
+The complete recession-review appendix also passed in the [nine-project portfolio workflow](https://github.com/arinjaidas/My-Projects/actions/runs/39377582458), at code commit 7ac2682e5c2351b497065760996fdd3d7d2ad489. It checks two consumption-index calculations and bounds on the Greek survey percentages. Those assertions are separate from the 57 unit checks.
 
-The checks include independent option-pricing comparisons, ARMA moments against statsmodels, LSTM derivatives against finite differences, temporal leakage checks, accounting identities, transaction costs and malformed-input rejection.
+The review repository is an index linking the already-public full package. It does not claim an additional independent empirical study or a second numerical workflow.
 
-Verification used Python 3.12.14. Exact package versions and per-project status are in [release_verification.json](release_verification.json). The code was checked locally; hosted CI is a separate status. MATLAB companion execution, the optional downloader, excluded original archives and a full source audit of the review are outside this record.
+Tests include independent option-price comparisons, ARMA moments against statsmodels, LSTM derivatives against finite differences, chronological leakage checks, accounting identities, transaction costs and malformed-input rejection. Walkthrough notebooks retain locally executed result-reading cells; a separate Jupyter-kernel execution is not claimed.
 
-## Hosted CI
+The tests establish implementation consistency. They do not certify future forecast accuracy, causal identification or historical investment performance. MATLAB companions and the optional downloader remain unexecuted. Original macroeconomic bundles and participant-level payment inputs are excluded.
 
-All eight GitHub Actions jobs passed for code commit 4a4541aef69df813b8da826e0284a8e8a1d0ec13. The jobs ran the public functional checks and complete examples using Python 3.12. [View the verified run](https://github.com/arinjaidas/My-Projects/actions/runs/39230105357). Later documentation-only changes leave those tested project files unchanged.
-
-The recession reproduction was rerun successfully on 20 October 2026. The maximum absolute consumption-index differences were 0.00357317 for the US and 0.00476848 for India, both within the 0.015-point rounding tolerance. This checks appendix arithmetic and does not independently validate every literature claim. The new workflow includes the review as its ninth job; its hosted result is recorded only after completion.
+Tested commits, run IDs and file counts appear in [standalone_verification.json](standalone_verification.json). Later documentation-only hub changes preserve the tested numerical source files.
