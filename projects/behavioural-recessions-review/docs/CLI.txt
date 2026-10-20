@@ -1,0 +1,7 @@
+usage: reproduce_figures.py [-h] [--output OUTPUT]
+
+Reproduce the archived review appendix; retain each source's distinct concept.
+
+options:
+  -h, --help       show this help message and exit
+  --output OUTPUT

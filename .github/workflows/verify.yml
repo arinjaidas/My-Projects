@@ -45,6 +45,9 @@ jobs:
           - project: lstm-time-series-lab
             entry: lstm_lab.py --demo
             tests: true
+          - project: behavioural-recessions-review
+            entry: reproduce_figures.py
+            tests: false
     defaults:
       run:
         working-directory: projects/${{ matrix.project }}

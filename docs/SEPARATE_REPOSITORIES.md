@@ -14,4 +14,4 @@ The working project links currently resolve to My-Projects. Each project directo
 | india-external-sector-forecasting | New synthetic forecasting demonstration, distinct from the original MAAKRO code, data and reports. |
 | arma-student-t-simulation | New executable Python reference and reconstructed MATLAB companion scripts. Original local source files were not recovered. |
 | lstm-time-series-lab | New NumPy implementation with synthetic returns, verified gradients, chronological splits and benchmark reporting. |
-| behavioural-recessions-review | Public research overview; the complete review manuscript and reproduction package are prepared separately. |
+| behavioural-recessions-review | Full narrative-review draft, 35 references, six figures, four archived aggregate datasets and executable Python figure reproduction. |

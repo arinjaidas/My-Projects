@@ -8,4 +8,4 @@ The historical cases are selected for analytical contrast rather than as a contr
 
 US personal saving, a Greek survey indicator of expenditure below income, and Indian saving components use different denominators and concepts. The design preserves those definitions instead of treating all three as one common cross-country saving rate.
 
-The complete manuscript and its reproduction materials remain separate from this public overview. No participant-level data, unpublished numerical results or recovered manuscript figures are distributed here.
+The full manuscript, archived aggregate appendix and reproduction materials are published alongside this design note. No participant-level household data are distributed. The review does not estimate new regressions or causal effects.

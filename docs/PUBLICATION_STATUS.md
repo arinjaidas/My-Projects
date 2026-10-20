@@ -1,9 +1,13 @@
 # Public release scope
 
-Nine project editions are prepared here: eight analytical/model implementations with synthetic or illustrative examples, and one narrative-review research overview. The complete review manuscript and appendix package remain separate.
+Updated 20 October 2026.
 
-The eight executable projects include code, numerical outputs, plots, walkthrough notebooks, documentation, attribution and verification records. The ninth project is an overview. GitHub Actions configurations are included in the standalone packages. All eight public project jobs passed in GitHub Actions; the verified run is linked from the verification page.
+Nine project editions are public: eight analytical/model implementations with synthetic or illustrative examples, and one complete narrative-review draft with archived published aggregate observations and executable figure reproduction.
 
-Original BHARAT-FX and MAAKRO research archives and original payment-study scripts/results remain outside this release. Participant-level survey records and institutional microdata are excluded as well.
+The recession review contains its complete Markdown manuscript, 35 references, six figures, four appendix datasets, a Python reproduction script and a walkthrough notebook. It is a research draft and does not report new survey collection or original causal estimates. Its data retain the manuscript's historical vintages and distinct measurement definitions.
 
-My-Projects is the current portfolio hub. Each project also has a prepared standalone repository layout. The profile README remains draft profile material until it is installed in the account's dedicated profile repository.
+The eight analytical/model implementations passed 57 functional checks and complete example runs. The review appendix also reproduced successfully, with separate arithmetic and range checks. The previous eight-project hosted CI passed; the extended nine-project workflow must complete before a nine-job hosted success is claimed.
+
+Original BHARAT-FX and MAAKRO research archives and original payment-study scripts/results are being prepared for the next release. Original participant-level survey records and institutional microdata are excluded.
+
+My-Projects is the current portfolio hub. Separate repositories and the actual profile README, bio and pins remain unfinished. LinkedIn and Indeed have not been edited. Those account changes require their own verified completion.

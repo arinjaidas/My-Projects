@@ -68,4 +68,6 @@ All values below are synthetic or illustrative workflow results.
 
 ## Behavioural Responses to Economic Recessions
 
-[Read the research overview](../projects/behavioural-recessions-review/). The full recovered review and its appendix figures are prepared separately.
+[Read the full review and reproduce the figures](../projects/behavioural-recessions-review/). These are archived published aggregate observations with different definitions and source vintages. They must not be ranked as one common saving rate.
+
+![Recession-review appendix](../projects/behavioural-recessions-review/demo_output/review_appendix.svg)

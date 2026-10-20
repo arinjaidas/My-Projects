@@ -18,7 +18,7 @@ I am pursuing an **MA in Economics at GIPE, Pune**, and previously supported eco
 | [LSTM Time-Series and Trading Workflow](https://github.com/arinjaidas/My-Projects/tree/main/projects/lstm-time-series-lab) | NumPy sequence modelling chronological evaluation and cost-aware simulation |
 | [Behavioural Responses to Economic Recessions](https://github.com/arinjaidas/My-Projects/tree/main/projects/behavioural-recessions-review) | Saving consumption risk-taking and household constraints |
 
-The portfolio includes **eight analytical/model demonstrations** and a **narrative-review research overview**. Public verification covers **57 functional checks** and **eight complete public example runs**.
+The portfolio includes **eight analytical/model demonstrations** and a **complete narrative-review draft with reproducible figures**. Public verification covers **57 functional checks**, **eight analytical/model examples** and **one review-appendix reproduction**.
 
 ### Methods and tools
 

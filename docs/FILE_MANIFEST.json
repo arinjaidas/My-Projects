@@ -1,5 +1,5 @@
 {
-  "release": "2026-10-19",
+  "release": "2026-10-20",
   "files": [
     {
       "path": ".gitattributes",
@@ -8,8 +8,8 @@
     },
     {
       "path": ".github/workflows/verify.yml",
-      "bytes": 1937,
-      "sha256": "6f069e876734c6585e97980d5844f4db0b108742879e44056470f601ab366c6c"
+      "bytes": 2053,
+      "sha256": "4fa972e576d9d1b727d10a1e74ae0b54a2b7f988f70354415fa6285c2ed87544"
     },
     {
       "path": ".gitignore",
@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3847,
-      "sha256": "409d2041187e72cd919e9a2106698502cc73a100113d64334337badad3b863ab"
+      "bytes": 3807,
+      "sha256": "7999349c3f783b825a3592814c1723cd791745e35974e4476a93baf7228b373a"
     },
     {
       "path": "assets/banner.svg",
@@ -28,13 +28,13 @@
     },
     {
       "path": "docs/CAREER_WRITEUPS.md",
-      "bytes": 11379,
-      "sha256": "0cf4204a7aa0d09eaa913461080fedce2209130c8fe67ae45aa8c5ea7e688c1a"
+      "bytes": 11447,
+      "sha256": "6b0ff01d78335d6741fd036a10dfefe345c5ffeda38185174d4ad12fd24b5481"
     },
     {
       "path": "docs/PROFILE_README.md",
-      "bytes": 3603,
-      "sha256": "d5971e9389a3534866bb9c249a1a51954989aa510fa2865f5b42514f11a0b9ad"
+      "bytes": 3661,
+      "sha256": "638a6a8e49d5cf7e5806b2d23dc0171c02560e24bceb1a4e3ff039cf437d7420"
     },
     {
       "path": "docs/PROFILE_SETTINGS.md",
@@ -43,43 +43,43 @@
     },
     {
       "path": "docs/PROJECT_CATALOGUE.md",
-      "bytes": 5378,
-      "sha256": "5957579961fedf2d804c461625c48652d5d0084cf0a50512848f73a4ae2a2f00"
+      "bytes": 5404,
+      "sha256": "df5045f396bee1428aa91cc3c236168d0555ef5f57e37d15ccaf134a9a178b6b"
     },
     {
       "path": "docs/PROVENANCE.md",
-      "bytes": 1881,
-      "sha256": "f717b6247d2296dc6630692b2a259067f02201f450aef5ba06ead20496b21ad6"
+      "bytes": 2278,
+      "sha256": "5427bdea96a81dc0b35b9d157419204d34da2fd1a3677c25740dab45078eca96"
     },
     {
       "path": "docs/PUBLICATION_STATUS.md",
-      "bytes": 1050,
-      "sha256": "a44478f1d4a8af6f9b6dc1f09a3d5ee558e61c7d4439158585759debad123710"
+      "bytes": 1426,
+      "sha256": "3e4382e6317c0e3a332edfd9b51f1c770ae53771b3fa4133b9c34e16e03c09e4"
     },
     {
       "path": "docs/RESULTS_GALLERY.md",
-      "bytes": 2437,
-      "sha256": "daa2945b4c0761fb064c3469795cc07c8242be719de8a3c9a6d116b93fab4dca"
+      "bytes": 2637,
+      "sha256": "a6f810eef0bfd9f56947915a6bdff785da6a647c87cfd5faa472d5cd26bd7e8c"
     },
     {
       "path": "docs/SEPARATE_REPOSITORIES.md",
-      "bytes": 1830,
-      "sha256": "7770d832753d508b50e8a5fd5de991083f83165c583c106b572985a321312e52"
+      "bytes": 1856,
+      "sha256": "6f9ba123876ae07bc24e74793cc29f20d91cce1cd1b6ef1003153d4e670f9c8d"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 1933,
-      "sha256": "39f24e85bd22683f153c5fb20e769934ddd2e20727f4dd983d50414d6769f1fa"
+      "bytes": 2527,
+      "sha256": "c4e221f65607987e08371ee1f4adec081ad3bd8a5053d0bba296ff2bb0d80100"
     },
     {
       "path": "docs/release_verification.json",
-      "bytes": 2824,
-      "sha256": "eb36c1c8298b507d8973d62db435a2d34dea187abc8955e097b5454ccc031d69"
+      "bytes": 3065,
+      "sha256": "16580e533a288a563e857d6b32d45f5b5c57c5ee2723583f97e653a7aa2b4c4c"
     },
     {
       "path": "docs/repository-settings.json",
-      "bytes": 5124,
-      "sha256": "a09c309276b878c7f9f1a8d5feb162617cdd4edff73d668cff3e123fc8eafafe"
+      "bytes": 5190,
+      "sha256": "88b619d4ac8400d8f313877a8eb9455ae711944e6bde455dd61bd781f1c4a89c"
     },
     {
       "path": "projects/arma-student-t-simulation/.gitattributes",
@@ -212,9 +212,49 @@
       "sha256": "a41a33c98b284969c6571145d093777ba236dca7c080f1e59a0338449151557c"
     },
     {
+      "path": "projects/behavioural-recessions-review/.gitattributes",
+      "bytes": 54,
+      "sha256": "7ae984b50ced7a800f4d97bc3f53471819f84860bbfc71a8658f1162a9f3fc95"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/.github/workflows/verify.yml",
+      "bytes": 641,
+      "sha256": "ff2b6fe34789a0a3eb9d4b91ab884cdfb7ebd3ef5eefa883e78ca06c8893cd60"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/.gitignore",
+      "bytes": 161,
+      "sha256": "226529a2f80dc277d24a19fc76db3779708389691b815cacf6c6dc27228fdcde"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/.python-version",
+      "bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/CHANGELOG.md",
+      "bytes": 363,
+      "sha256": "a7d3917233374379b8ce0f66ecebd862beba0fb6acef9ffd48918a76126fbce9"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/CITATION.cff",
+      "bytes": 419,
+      "sha256": "724c2d49b1c1f94463bf7959f25d03e7917b9a1ee41a4b96dd4d80a20efc1144"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/CONTRIBUTING.md",
+      "bytes": 483,
+      "sha256": "3162594a3e0c422dea00662797e647fa398e673b0b991e7a58e304f29ce15356"
+    },
+    {
       "path": "projects/behavioural-recessions-review/README.md",
-      "bytes": 1714,
-      "sha256": "15cd0c9c6c37fd98647be1b1ae3bded482d43bc72336e25f20202e9c044ead1b"
+      "bytes": 4088,
+      "sha256": "e6fe2a064f776a07ae75cf8e28113272f5baeb59eb083736c1ee2726c86aaf8e"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/REPRODUCIBILITY.md",
+      "bytes": 1383,
+      "sha256": "eeb470d77b89045561bc9fd21fa191eb7c153939871d997d9b7cc762040b97e1"
     },
     {
       "path": "projects/behavioural-recessions-review/assets/header.svg",
@@ -222,14 +262,169 @@
       "sha256": "280656872a011fa13bdadd4c13e0c8dd26c02d0bf01b8b7dbf596b5b7f742810"
     },
     {
+      "path": "projects/behavioural-recessions-review/data/greece_saving_indicator.csv",
+      "bytes": 149,
+      "sha256": "4e067d8359ab270a1049fe06483a63e7059585819a2287538c9fb03c4659df38"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/data/india_consumption.csv",
+      "bytes": 191,
+      "sha256": "5d7dc174191184d290a677a38b7bc3c8abaa4812e21af63928dc1d38a8501948"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/data/india_saving_components.csv",
+      "bytes": 134,
+      "sha256": "44dd63dd20449bcafd69d113061cf3e6f201bb2caf464fcf5db838efc9c0e09b"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/data/provenance.json",
+      "bytes": 1174,
+      "sha256": "5d67b925484362139d15244f0517df8aca8bf4c18741e0120cd123d1bf987cc3"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/data/us_households.csv",
+      "bytes": 296,
+      "sha256": "a87051f1612bbd05ca7531e837db532558146755160353393bd69d96edb57ef9"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/demo_output/figure-2.png",
+      "bytes": 52624,
+      "sha256": "51b9ab31e2a6dbac38bd789d793e54492d359fda8d6f135b1a18879c1405e16f"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/demo_output/figure-3.png",
+      "bytes": 51385,
+      "sha256": "55a39244dc346d0154a5a8d8e0c1d80a94bc24c17ac596b9c424fe389486b344"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/demo_output/figure-4.png",
+      "bytes": 49609,
+      "sha256": "4ab6b24ab2b12deea888490883082bb68a904899142c64221c8ed70c6d7c7ede"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/demo_output/figure-5.png",
+      "bytes": 65425,
+      "sha256": "bd970d4772f0756193d31e1c8b2f815bcab2a6ca507ee9ae409bf7e4a7eae52d"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/demo_output/figure-6.png",
+      "bytes": 65833,
+      "sha256": "99043a4bc1e123aea41d66692ea60305b13a150130656e9782df9e26f26b3fe7"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/demo_output/india_reproduction.csv",
+      "bytes": 285,
+      "sha256": "a81137dee81e1b4822e6cd0ef3a68ca5ad8806b2291814682690ed45c297250e"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/demo_output/review_appendix.svg",
+      "bytes": 109641,
+      "sha256": "f9fa45f27577b0b0b3bf766e59e9761c2d0112f8074ff1b60eb6008284427db0"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/demo_output/run_metadata.json",
+      "bytes": 687,
+      "sha256": "9e14e5aee665ed4c9fe5465cc90325441dc55dc5aa04583f176e1bd31976dfa1"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/demo_output/us_reproduction.csv",
+      "bytes": 454,
+      "sha256": "1ba3db11d08919568a6a7a6979d998b9c7f3f5d35fa97ab6438d830db4e6d6ba"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/docs/CLI.txt",
+      "bytes": 210,
+      "sha256": "438a236e21077a67af1b70893df9d3bf12ed1f584923e0e67e3cb294d1034488"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/docs/DATA_DICTIONARY.md",
+      "bytes": 711,
+      "sha256": "b6d53ae7e6dab273c90f50057d79b2c9aa51910b49f669a9832d404031117372"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/docs/METHODS.md",
+      "bytes": 1837,
+      "sha256": "f295ce603572d5fde782d154dc62e6e5289a9847159dd9a6c2f93bb8105f52f0"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/docs/PROVENANCE.md",
+      "bytes": 1100,
+      "sha256": "fc59556dcf98c155f857b8291e5c4aaec88948fc64201f10e3a7c2c551e42ba7"
+    },
+    {
       "path": "projects/behavioural-recessions-review/docs/REFERENCES.md",
-      "bytes": 543,
-      "sha256": "67b64729c5816d26f2869ff487503186dbeb6dee3493332c980161c1d570c671"
+      "bytes": 492,
+      "sha256": "0da38d8404f09f6f0727a40f26686708205d449898a9fe744c3053d7fb9c974b"
     },
     {
       "path": "projects/behavioural-recessions-review/docs/RESEARCH_DESIGN.md",
-      "bytes": 1336,
-      "sha256": "97b7cf0887475ffb377d975f9744bdaf88c2f488fe51d3e05b16cf219f511cc3"
+      "bytes": 1362,
+      "sha256": "d9c35760248ac80e78346e209af547e79a63e362dd31206ca56abd90b4c79b04"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/docs/RESULTS.md",
+      "bytes": 780,
+      "sha256": "28cbb5bb9d86f1a47dec8e1d55147ae1aefe4d1d20c198214ae3b8b6e5701b1a"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/docs/ROADMAP.md",
+      "bytes": 427,
+      "sha256": "8ef16b44a4c15909162216bb99d69deb4db8d44193a86bb2f7fd3ee427576935"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/docs/environment.json",
+      "bytes": 278,
+      "sha256": "c12143b6512ab77c7898db33d7d05dda805d20f6a8a41feb33906f0dd55ffae2"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/notebooks/01_results_walkthrough.ipynb",
+      "bytes": 3908,
+      "sha256": "0cacbbe255f3b816a61517b67c7df79772061cfa670c2bde83e42269dcea0782"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/paper/REVIEW_DRAFT.md",
+      "bytes": 71927,
+      "sha256": "0319d7744a54a46b0706b52d190b7b5fbd83e084a99415ede4b59f2600f8a373"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/paper/figures/figure-1.png",
+      "bytes": 156170,
+      "sha256": "4d1743a8d1614594a6abc58172b992c65ab009d6df3577105626a4c720d287ea"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/paper/figures/figure-2.png",
+      "bytes": 52624,
+      "sha256": "51b9ab31e2a6dbac38bd789d793e54492d359fda8d6f135b1a18879c1405e16f"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/paper/figures/figure-3.png",
+      "bytes": 51385,
+      "sha256": "55a39244dc346d0154a5a8d8e0c1d80a94bc24c17ac596b9c424fe389486b344"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/paper/figures/figure-4.png",
+      "bytes": 49609,
+      "sha256": "4ab6b24ab2b12deea888490883082bb68a904899142c64221c8ed70c6d7c7ede"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/paper/figures/figure-5.png",
+      "bytes": 65425,
+      "sha256": "bd970d4772f0756193d31e1c8b2f815bcab2a6ca507ee9ae409bf7e4a7eae52d"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/paper/figures/figure-6.png",
+      "bytes": 65833,
+      "sha256": "99043a4bc1e123aea41d66692ea60305b13a150130656e9782df9e26f26b3fe7"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/reproduce_figures.py",
+      "bytes": 5766,
+      "sha256": "2d8b70405068b76a0674da677d0d8dcd3bce1d10af32fed28ad74310edb1e28c"
+    },
+    {
+      "path": "projects/behavioural-recessions-review/requirements.txt",
+      "bytes": 40,
+      "sha256": "982c24839a17e4ed89742eb74690aca75fbf40aeb1247d88bd456aa37e2f1be2"
     },
     {
       "path": "projects/bharat-fx/.gitattributes",
@@ -1141,5 +1336,6 @@
       "bytes": 2523,
       "sha256": "fc8131c64f24a4c6c6df716276df2bbe20dcd8c66793e0582a26f6ee6fa761e2"
     }
-  ]
+  ],
+  "excludes": "This manifest excludes itself to avoid a recursive content hash."
 }

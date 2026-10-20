@@ -6,7 +6,7 @@ I build analytical workflows that connect economic questions with transparent mo
 
 I am pursuing an **MA in Economics at the Gokhale Institute of Politics and Economics, Pune**, with earlier economic-history research experience at the **University of Tübingen**.
 
-**9 project editions · 57 functional checks · 8 complete public example runs · 8 walkthrough notebooks**
+**9 project editions · 57 functional checks · 9 complete public example runs · 9 walkthrough notebooks**
 
 [GitHub Actions: all eight project jobs passed](https://github.com/arinjaidas/My-Projects/actions/runs/39230105357)
 
@@ -22,9 +22,9 @@ I am pursuing an **MA in Economics at the Gokhale Institute of Politics and Econ
 | [India External-Sector Forecasting](projects/india-external-sector-forecasting/) | Accounting-coherent forecasts and chronological benchmark evaluation | 10 |
 | [ARMA Simulation with Student-t Innovations](projects/arma-student-t-simulation/) | Persistence heavy tails theoretical moments and Monte Carlo diagnostics | 8 |
 | [LSTM Time-Series and Trading Workflow](projects/lstm-time-series-lab/) | NumPy sequence modelling chronological evaluation and cost-aware simulation | 8 |
-| [Behavioural Responses to Economic Recessions](projects/behavioural-recessions-review/) | Saving consumption risk-taking and household constraints | Overview |
+| [Behavioural Responses to Economic Recessions](projects/behavioural-recessions-review/) | Saving consumption risk-taking and household constraints | Appendix consistency |
 
-Eight projects contain executable analytical/model demonstrations with synthetic or illustrative data. The behavioural-recession project provides a research overview. Its complete manuscript and reproduction package are prepared separately. Each executable project has methods, data definitions, results, provenance, reproducibility notes and a roadmap. The review overview has its research design and selected source links.
+Eight projects contain executable analytical/model demonstrations with synthetic or illustrative data. The behavioural-recession project includes the full recovered narrative-review draft, six figures, four archived aggregate datasets and executable figure reproduction. Each project has methods, data definitions, results, provenance, reproducibility notes and a roadmap.
 
 [View the results gallery](docs/RESULTS_GALLERY.md) · [Browse the complete project catalogue](docs/PROJECT_CATALOGUE.md) · [Read the verification record](docs/VERIFICATION.md)
 

@@ -8,7 +8,7 @@ The payment-choice workflow and the two macroeconomic examples were newly implem
 
 ## Recovered written research
 
-The September 2026 behavioural-recession manuscript and its figure-reproduction package have been prepared separately. This public release includes a newly written research overview, not the recovered manuscript, appendix data or figures.
+The September 2026 behavioural-recession manuscript is published as a complete Markdown narrative-review draft with its 35 references, six figures, four archived aggregate datasets and executable figure reproduction. Five empirical figures were redrawn from the archived appendix for legibility; the original conceptual figure is retained. This is a portfolio draft, with no new household survey or original econometric estimates.
 
 ## Attribution and excluded original materials
 
@@ -18,4 +18,4 @@ Original BHARAT-FX and MAAKRO code/data/report archives and original payment-stu
 
 ## Scope of verification
 
-The public release passed 57 functional checks and eight complete public example runs. The original external-sector archive's separate 821 local numerical checks do not count toward that total. MATLAB companions and the optional market downloader have not been executed for this release. A full independent literature and source-data audit of the review is not claimed.
+The public release passed 57 functional checks, eight analytical/model example runs and one complete review-appendix reproduction. The review also checks two consumption-index calculations and the bounds of the Greek survey percentages; those assertions are separate from the 57 unit checks. The original external-sector archive's separate 821 local numerical checks do not count toward that total. MATLAB companions and the optional market downloader have not been executed for this release. A full independent literature and source-data audit of the review is not claimed.

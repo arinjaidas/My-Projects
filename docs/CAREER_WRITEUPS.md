@@ -120,10 +120,10 @@ Current public link: [Behavioural Responses to Economic Recessions](https://gith
 
 **LinkedIn project description**
 
-Narrative research review of saving, consumption and risk-taking across recessions, presented here through its research overview. Portfolio owner: Arinjai Das. Generative AI assisted with restructuring, drafting, source checking and document preparation. The source manuscript declares that it collected no new survey data and estimated no new regressions. Public research overview; the complete review manuscript and reproduction package are prepared separately.
+Narrative research review of saving, consumption and risk-taking across recessions, with the complete draft and reproducible descriptive figures. Portfolio owner: Arinjai Das. Generative AI assisted with restructuring, drafting, source checking and document preparation. The source manuscript declares that it collected no new survey data and estimated no new regressions. Full narrative-review draft, 35 references, six figures, four archived aggregate datasets and executable Python figure reproduction.
 
 **Indeed or CV description**
 
-Why can stronger precautionary motives produce additional saving for some households and dissaving or essential-spending cuts for others? The public edition demonstrates literature review, behavioural economics, household finance, evidence synthesis, data definitions, python visualisation. Public research overview; the complete review manuscript and reproduction package are prepared separately.
+Why can stronger precautionary motives produce additional saving for some households and dissaving or essential-spending cuts for others? The public edition demonstrates literature review, behavioural economics, household finance, evidence synthesis, data definitions, python visualisation. Full narrative-review draft, 35 references, six figures, four archived aggregate datasets and executable Python figure reproduction.
 
 **Skills:** Literature review, behavioural economics, household finance, evidence synthesis, data definitions, Python visualisation.

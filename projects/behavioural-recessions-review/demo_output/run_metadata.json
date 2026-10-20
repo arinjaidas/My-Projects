@@ -1,0 +1,9 @@
+{
+  "synthetic": false,
+  "data_type": "Published aggregate observations transcribed in the original review appendix",
+  "us_index_max_abs_difference": 0.0035731729900447817,
+  "india_index_max_abs_difference": 0.004768481161718796,
+  "comparability": "US personal saving, Greek survey saving indicator and Indian saving components have different definitions and denominators. Do not rank them as one common saving rate.",
+  "verification": "Arithmetic and appendix consistency checked; no fresh source download or causal inference.",
+  "manuscript_figures": "Five empirical figures redrawn from the archived appendix to avoid clipped axis labels; original conceptual figure retained."
+}

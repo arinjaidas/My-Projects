@@ -101,7 +101,7 @@
     },
     {
       "name": "behavioural-recessions-review",
-      "description": "Research overview of household saving, consumption and financial risk-taking during recessions, with comparative case-study design.",
+      "description": "Full narrative review of household saving, consumption and financial risk-taking during recessions, with archived aggregate data and reproducible figures.",
       "topics": [
         "economics",
         "behavioural-economics",
@@ -109,7 +109,7 @@
         "literature-review",
         "python"
       ],
-      "public_edition": "Research overview; full manuscript and appendix materials prepared separately."
+      "public_edition": "Full narrative-review draft, 35 references, six figures, four archived aggregate datasets and Python figure reproduction."
     }
   ],
   "profile": {

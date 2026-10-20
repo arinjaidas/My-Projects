@@ -1,0 +1,17 @@
+{
+  "source_manuscript": "Behavioural_Responses_to_Economic_Recessions.docx",
+  "source_sha256": "d3c3af002ef560acae9e4372dfbf0fe2c47df4bb1343682d5606efe9ef0c2b4f",
+  "source_date": "September 2026",
+  "manuscript_words_approx": 9779,
+  "figures_extracted": 6,
+  "references_in_source": 35,
+  "conversion": "Body text, tables and reference hyperlinks retained. Original conceptual figure retained; five empirical figures redrawn from appendix observations for readability. Em dashes replaced with commas.",
+  "source_vintages": {
+    "us_households.csv": "BEA/FRED, 2 September 2026 retrieval in original paper",
+    "greece_saving_indicator.csv": "Charalambakis 2017, Table 11; separate 2009 and 2014 survey samples",
+    "india_saving_components.csv": "RBI/NSO May 2025 vintage; percentages of GNDI",
+    "india_consumption.csv": "RBI/NSO September 2023 vintage; 2011-12 constant prices"
+  },
+  "verification_scope": "Figures reproduced from the archived appendix; not a fresh download or full independent revalidation of all literature and statistics.",
+  "research_type": "Narrative review; no original causal estimates, survey collection or systematic meta-analysis."
+}

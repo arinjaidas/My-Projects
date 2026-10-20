@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "python": "3.12.14",
   "packages": {
     "numpy": "2.3.5",
@@ -68,14 +68,18 @@
     {
       "project": "behavioural-recessions-review",
       "functional_checks": 0,
-      "example_run": "Prepared separately; public overview only",
+      "example_run": "passed",
       "synthetic": false,
-      "metadata": null
+      "metadata": "projects/behavioural-recessions-review/demo_output/run_metadata.json",
+      "appendix_consistency_checks": 3
     }
   ],
   "functional_checks": 57,
-  "example_runs": 8,
-  "hosted_ci": {
+  "example_runs": 9,
+  "matlab": "Companion scripts not executed; no MATLAB/Octave runtime.",
+  "original_archives": "Excluded; their separate historical checks do not count toward this public release.",
+  "prepared_total_example_runs": 9,
+  "hosted_ci_previous_eight_projects": {
     "run_id": 39230105357,
     "url": "https://github.com/arinjaidas/My-Projects/actions/runs/39230105357",
     "status": "completed",
@@ -83,7 +87,8 @@
     "tested_code_commit": "4a4541aef69df813b8da826e0284a8e8a1d0ec13",
     "jobs_passed": 8
   },
-  "matlab": "Companion scripts not executed; no MATLAB/Octave runtime.",
-  "original_archives": "Excluded; their separate historical checks do not count toward this public release.",
-  "prepared_total_example_runs": 9
+  "hosted_ci": {
+    "status": "pending",
+    "scope": "Nine public project jobs; three review assertions are separate from 57 unit checks."
+  }
 }
